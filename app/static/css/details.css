@@ -1,0 +1,245 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+    overflow-x: hidden;
+    background-color: var(--dark-black);
+}
+
+.details-container{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.details-container .top-img img{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.row h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--bright-blue);
+    text-shadow: 0.07em 0.07em var(--shadow-blue);
+}
+
+.row p{
+    text-align: left;
+    margin-right: 1em;
+    padding: 0.2em 0 0.2em 0;
+    color: var(--text-blue);
+}
+
+.row .slideshow-container img{
+    width: 20em;
+    height: 20em;
+    border-radius: 5px;
+    border: 1px solid var(--shadow-blue);border: 1px solid var(--shadow-blue);
+}
+
+.row video{
+    width: 20em;
+    height: 35.6em;
+    border-radius: 5px;
+    border: 1px solid var(--shadow-blue);
+}
+
+.row:nth-of-type(odd){
+    flex-direction: row-reverse;
+}
+
+.row:nth-of-type(odd) p {
+    flex-direction: row-reverse;
+    margin-left: 1.4em;
+    color: var(--text-blue);
+}
+
+.sub-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    text-align: left;
+    margin: 1em 0 0 1.4em;
+}
+
+.col-2{
+    width: 50%;
+}
+
+.col-2 li i{
+    margin-right: 0.5em;
+}
+
+.col-2 h3{
+    padding: 0.3em 0.3em 0.3em 0;
+    color: var(--text-blue);
+}
+
+.sub-row .col-2 a{
+    color: var(--highlight);
+}
+
+#record{
+    padding: 0.7em 0.3em 0.3em 0;
+}
+
+.row video{
+    margin-top: 0.8em;
+}
+.text-top li{
+    color: var(--text-blue);
+}
+
+.row .text-top .sub-heading{
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--bright-blue);
+    text-shadow: 0.07em 0.07em var(--shadow-blue);
+}
+
+@media (max-width: 920px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+        margin: 2em 4em 0 4em;
+    }
+
+    .details-container .top-img img{
+        width: 100%;
+        height: auto;
+        margin: 40px 0 auto 0;
+    }
+    
+    .row h1{
+        margin: -0.5em -3.5em 0.1em -3.5em;
+        font-size: 1.7em;
+    }
+
+    .row img{
+        width: 19em;
+        height: 19em;
+    }
+
+    .row p{
+        margin: 0 -4em 0.8em -4em;
+    }
+
+    .row:nth-of-type(odd){
+        flex-direction: column;
+    }
+    
+    .row:nth-of-type(odd) p {
+        margin-left: 0em;
+        margin: 0 -4em 0.8em -4em;
+    }
+    .row .text-top .sub-heading{
+        margin-left: -2em;
+    }
+  }
+
+  @media (max-width: 600px){
+    .sub-row{
+        flex-direction: column;
+        margin: auto -4em auto -4em;
+    }
+
+    .col-2{
+        width: 100%;
+    }
+    .row .text-top .sub-heading{
+        font-size: 1.5em;
+        margin-left: -2.5em;
+    }
+  }
+
+  .mySlides {display: none}
+  .mySlides img {vertical-align: middle;}
+  
+  /* Slideshow details-container */
+  .slideshow-container {
+    /* max-width: 1000px; */
+    position: relative;
+    /* margin: auto; */
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev {
+    left: 0;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }

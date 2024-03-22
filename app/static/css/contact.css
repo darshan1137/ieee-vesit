@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    background: var(--dark-black);
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --surface-color: #000;
+    --curve: 40;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin: 2rem 8vw;
+    padding: 0;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.card {
+    position: relative;
+    display: block;
+    width: 92%;
+    max-width: 277px;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 8px 8px 10px -6px #ff2a6d;
+}
+
+.card__image {
+    max-width: 100%;
+    height: auto;
+}
+
+.card__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-radius: 40px 0 0 0;
+    background-color: var(--surface-color);
+    transform: translateY(100%);
+    transition: .2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+    transform: translateY(0);
+}
+
+.card__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 2em;
+    border-radius: 40px 0 0 0;
+    background-color: var(--surface-color);
+    transform: translateY(-100%);
+    transition: .2s ease-in-out;
+}
+
+.card__arc {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    z-index: 1;
+}
+
+.card__arc path {
+    fill: var(--surface-color);
+    -d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+}
+
+.card:hover .card__header {
+    transform: translateY(0);
+}
+
+.card__thumb {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card__title {
+    font-size: 0.9em;
+    color: #05d9e8;
+}
+
+.card__tagline {
+    display: block;
+    margin: 1em 0;
+    font-family: "MockFlowFont";
+    font-size: .8em;
+    color: #d1f7ff;
+}
+
+.card__status {
+    font-size: .8em;
+    color: #D7BDCA;
+    line-height: 1em;
+}
+
+.card__description {
+    padding: 0 2em 2em;
+    margin: 0;
+    color: #d1f7ff;
+    font-family: "MockFlowFont";
+    font-size: 0.9em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.ftco-section {
+    padding-top: 10px;
+}
+
+.contact-in {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 8px 8px 10px -6px #ff2a6d;
+}
+
+.contact-map {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-form {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    text-align: center;
+    padding: 30px;
+}
+
+/* .contact-form h1 {
+    margin-bottom: 10px;
+} */
+
+.contact-form-txt {
+    width: 100%;
+    height: 40px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.contact-form-txt::placeholder {
+    color: #aaa;
+}
+
+.contact-form-textarea {
+    width: 100%;
+    height: 130px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form-textarea::placeholder {
+    color: #aaa;
+}
+
+.contact-form-btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: #000;
+    color: #d1f7ff;
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contact-form-dropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact-form-dropdown .contact-form-txt{
+    padding: 0 15px;
+    width: 48%;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  --webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  --moz-appearance: textfield;
+}
+
+.contact-form-btn:hover {
+    background-color: #000;
+    transition: 1s;
+}
+
+hr {
+    width: 12em;
+    height: 0.2em;
+    background-color: #05d9e8;
+    border: 0px;
+    border-radius: 0.1em;
+}
+
+h1, h2{
+    color: var(--dark-black);
+    margin-bottom: 20px;
+}
