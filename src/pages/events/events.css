@@ -20,8 +20,11 @@ body{
 .container1{
   position: relative;
   display: inline-flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
   padding: 1em;
+
   
 }
 

@@ -12,7 +12,9 @@ function Se() {
         {teamData.se.map((member, index) => (
           <div className="box center" key={index}>
             <div className="img-container">
-              <img className="img-tag" src={member.path} alt="" />
+              {member.path && (
+                <img className="img-tag" src={member.path} alt="" />
+              )}
             </div>
 
             <div>
@@ -23,17 +25,20 @@ function Se() {
               <i className="fas fa-arrow-right"></i>
             </div>
             <div className="left_container off">
-              <div className="icons">
-                <a href={`mailto:${member.socialLinks.email}`}>
-                  <i className="fa-solid fa-envelope"></i>
-                </a>
-              </div>
+              {member.socialLinks && member.socialLinks.email && (
+                <div className="icons">
+                  <a href={`mailto:${member.socialLinks.email}`}>
+                    <i className="fa-solid fa-envelope"></i>
+                  </a>
+                </div>
+              )}
               <div className="cancel center">
                 <i className="fas fa-times"></i>
               </div>
             </div>
           </div>
         ))}
+        {teamData.se.length === 0 && <div>No SE Coordinators Found</div>}
       </div>
     </div>
   );

@@ -14,6 +14,24 @@ const data = {
     {
       name: "Pranav Pol",
       position: "SE Coordinator",
+      path: "src/assets/council_images/SEs/jpeg-optimizer_Pranav Pol D10A.JPG",
+
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/pranavpol/",
+        github: "https://github.com/PranavPol-01",
+        instagram: "https://www.instagram.com/pranav_pol/",
+        email: "2022.pranav.pol@ves.ac.in",
+      },
+    },
+    {
+      name: "Shravani Rasam",
+      position: "SE coordinator",
+    },
+    {
+      name: "Maithili",
+      position: "SE Coordinator",
+      path: "src/assets/council_images/SEs/jpeg-optimizer_maithili latey d9b.jpg",
+
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/pranavpol/",
         github: "https://github.com/PranavPol-01",
