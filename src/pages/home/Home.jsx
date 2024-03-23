@@ -11,6 +11,8 @@ import juhiRev from '../../assets/home/testimonials/juhi_rev.jpeg';
 import mansiRev from '../../assets/home/testimonials/mansi_rev.jpeg';
 import vanshRev from '../../assets/home/testimonials/vansh_rev.jpeg';
 import madhumitaRev from '../../assets/home/testimonials/madhumita_rev.jpeg';
+import membershipDrive from '../../assets/home/membership_drive.jpg';
+import upcomingPoster from '../../assets/home/upcoming_posters.png';
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -41,16 +43,15 @@ const Home = () => {
   return (
     <div>
       {/* Slider */}
-      <div className="slider-container">
+      <div className="center">
         <div className="slideshow-container">
           {slides.map((slide, index) => (
             <div key={index} className={`mySlides fade${index === currentSlide ? ' active' : ''}`}>
-              <img src={slide} className="slide-image" alt="" />
+              <img src={slide} style={{ width: "100%" }} alt="" />
             </div>
           ))}
         </div>
       </div>
-
       <div className="container">
         {/* About Us */}
         <div className="about" data-aos="fade-up">
@@ -169,30 +170,33 @@ const Home = () => {
         </div>
 
         {/* Upcoming Events */}
-        {/* <div className="upcoming-events">
-          <h1 className="ieee_title">UPCOMING EVENTS</h1>
-          <div className="upcoming-events-wrap">
-            <img
-              className="event-images"
-              src={require('../../assets/home/membership_drive.jpg')}
-              alt=""
-            />
-       
-          </div>
-        </div> */}
+        <div className="upcoming-events">
+      <h1 className="ieee_title">UPCOMING EVENTS</h1>
+      <div className="upcoming-events-wrap">
+        <img
+          className="event-images"
+          src={membershipDrive}
+          alt="Membership Drive"
+        />
+        <img
+          className="event-images"
+          src={upcomingPoster}
+          alt="Upcoming Poster"
+        />
+        <img
+          className="event-images"
+          src={upcomingPoster}
+          alt="Upcoming Poster"
+        />
+        <img
+          className="event-images"
+          src={upcomingPoster}
+          alt="Upcoming Poster"
+        />
+      </div>
+    </div>
 
-        {/* Upcoming Events */}
-        {/* <div className="upcoming-events">
-          <h1 className="ieee_title">UPCOMING EVENTS</h1>
-          <div className="upcoming-events-wrap">
-            <img
-              className="event-images"
-              src={require('./images/home/membership_drive.jpg')}
-              alt=""
-            />
-            
-          </div>
-        </div> */}
+       
 
         {/* Testimonials */}
         <div className="testimonials">

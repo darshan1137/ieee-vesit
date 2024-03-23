@@ -352,28 +352,4 @@ body {
     background-color: rgba(0, 0, 0, 0.449);
     z-index: 1;
   } */
-  .slider-container {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .slideshow-container {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .mySlides {
-    display: none;
-  }
-  
-  .mySlides.active {
-    display: block;
-  }
-  
-  .slide-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
   
