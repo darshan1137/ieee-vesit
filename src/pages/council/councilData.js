@@ -258,25 +258,14 @@ const data = {
 
   be: [
     {
-      name: "Ashutosh Mishra",
-      position: "Sr. TAB",
-      path: "src/assets/council_images/SC/jpeg-optimizer_Ashutosh_Mishra_SrTAB.jpg",
+      name: "Sheryl Bellary",
+      position: "Chairperson",
+      path: "src/assets/council_images/SC/jpeg-optimizer_ChairPerson_Sheryl.jpg",
       socialLinks: {
-        linkedin: "https://www.linkedin.com/in/ashutoshm1808/",
-        instagram: "https://www.instagram.com/ashutosh.tm/",
-        github: "https://github.com/ashutosh1808",
-        email: "2020.ashutosh.mishra@ves.ac.in",
-      },
-    },
-    {
-      name: "Dhanshree Pandey",
-      position: "Sr. Editor",
-      path: "src/assets/council_images/SC/jpeg-optimizer_SrEditor_Dhanshree_Pandey.jpg",
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/dhanshree-pandey-56113724a",
-        instagram: "https://www.instagram.com/dhanshree.p4001/",
-        github: "https://github.com/dhano44",
-        email: "d2020.dhanshree.pandey@ves.ac.in",
+        linkedin: "https://www.linkedin.com/in/sheryl-bellary/",
+        instagram: "https://www.instagram.com/bellarysheryl/",
+        github: "https://github.com/bellarysheryl",
+        email: "2020.sheryl.bellary@ves.ac.in",
       },
     },
     {
@@ -290,6 +279,18 @@ const data = {
         email: "2020.aditi.bombe@ves.ac.in",
       },
     },
+    {
+      name: "Ashutosh Mishra",
+      position: "Sr. TAB",
+      path: "src/assets/council_images/SC/jpeg-optimizer_Ashutosh_Mishra_SrTAB.jpg",
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/ashutoshm1808/",
+        instagram: "https://www.instagram.com/ashutosh.tm/",
+        github: "https://github.com/ashutosh1808",
+        email: "2020.ashutosh.mishra@ves.ac.in",
+      },
+    },
+
     {
       name: "Hitesh Kapure",
       position: "Sr. TAB",
@@ -320,6 +321,17 @@ const data = {
       },
     },
     {
+      name: "Dhanshree Pandey",
+      position: "Sr. Editor",
+      path: "src/assets/council_images/SC/jpeg-optimizer_SrEditor_Dhanshree_Pandey.jpg",
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/dhanshree-pandey-56113724a",
+        instagram: "https://www.instagram.com/dhanshree.p4001/",
+        github: "https://github.com/dhano44",
+        email: "d2020.dhanshree.pandey@ves.ac.in",
+      },
+    },
+    {
       name: "Aditya Nehete",
       position: "Sr. Web Editor",
       path: "src/assets/council_images/SC/jpeg-optimizer_Aditya_SrWeb.jpeg",
@@ -339,17 +351,6 @@ const data = {
         instagram: "https://www.instagram.com/_akash_4real/",
         github: "https://github.com/Kirito3136t",
         email: "2020.akash.choughule@ves.ac.in",
-      },
-    },
-    {
-      name: "Sheryl Bellary",
-      position: "Chairperson",
-      path: "src/assets/council_images/SC/jpeg-optimizer_ChairPerson_Sheryl.jpg",
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/sheryl-bellary/",
-        instagram: "https://www.instagram.com/bellarysheryl/",
-        github: "https://github.com/bellarysheryl",
-        email: "2020.sheryl.bellary@ves.ac.in",
       },
     },
   ],

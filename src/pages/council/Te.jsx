@@ -60,7 +60,9 @@ const JuniorCouncil = () => {
                     rel="noopener noreferrer"
                   >
                     {key === "github" && <FontAwesomeIcon icon={faGithub} />}
-                    {key === "linkedin" && <FontAwesomeIcon icon={faLinkedin} />}
+                    {key === "linkedin" && (
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    )}
                     {key === "email" && <FontAwesomeIcon icon={faEnvelope} />}
                     {key === "instagram" && (
                       <FontAwesomeIcon icon={faInstagram} />

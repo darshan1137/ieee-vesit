@@ -1,44 +1,89 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Council.css";
 import teamData from "./councilData";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+  faTimes,
+  faArrowRight,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faLinkedin,
+  faInstagram,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Se() {
+  const [activeIndices, setActiveIndices] = useState([]);
+
+  const handleClick = (index) => {
+    setActiveIndices((prevIndices) =>
+      prevIndices.includes(index)
+        ? prevIndices.filter((i) => i !== index)
+        : [...prevIndices, index]
+    );
+  };
   return (
     <div className="faculty">
       <div style={{ marginTop: "30px" }}>
         <h1 className="ieee_title">SE Coordinators</h1>
       </div>
       <div className="main center" data-aos="zoom-in-up">
-        {teamData.se.map((member, index) => (
+        {teamData.se.map((data, index) => (
           <div className="box center" key={index}>
             <div className="img-container">
-              {member.path && (
-                <img className="img-tag" src={member.path} alt="" />
+              {data.path && (
+                <img
+                  className="img-tag"
+                  src={data.path}
+                  alt={data.name}
+                  loading="lazy"
+                />
               )}
             </div>
-
             <div>
-              <div className="user_name">{member.name}</div>
-              <p className="skill">{member.position}</p>
+              <div className="user_name">{data.name}</div>
+              <p className="skill">
+                {data.position}
+                <br />
+              </p>
             </div>
-            <div className="arr_container center">
-              <i className="fas fa-arrow-right"></i>
+            <div
+              className="arr_container center"
+              onClick={() => handleClick(index)}
+            >
+              <FontAwesomeIcon icon={faArrowRight} />
             </div>
-            <div className="left_container off">
-              {member.socialLinks && member.socialLinks.email && (
-                <div className="icons">
-                  <a href={`mailto:${member.socialLinks.email}`}>
-                    <i className="fa-solid fa-envelope"></i>
+            <div
+              className={`left_container ${
+                activeIndices.includes(index) ? "active" : "off"
+              }`}
+            >
+              <div className="icons">
+                {Object.entries(data.socialLinks).map(([key, value], j) => (
+                  <a
+                    key={j}
+                    href={value}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {key === "github" && <FontAwesomeIcon icon={faGithub} />}
+                    {key === "linkedin" && (
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    )}
+                    {key === "email" && <FontAwesomeIcon icon={faEnvelope} />}
+                    {key === "instagram" && (
+                      <FontAwesomeIcon icon={faInstagram} />
+                    )}
                   </a>
-                </div>
-              )}
-              <div className="cancel center">
-                <i className="fas fa-times"></i>
+                ))}
+              </div>
+              <div className="cancel center" onClick={() => handleClick(index)}>
+                <FontAwesomeIcon icon={faTimes} />
               </div>
             </div>
           </div>
         ))}
-        {teamData.se.length === 0 && <div>No SE Coordinators Found</div>}
       </div>
     </div>
   );
