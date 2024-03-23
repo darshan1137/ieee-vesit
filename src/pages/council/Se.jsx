@@ -11,7 +11,10 @@ function Se() {
       <div className="main center" data-aos="zoom-in-up">
         {teamData.se.map((member, index) => (
           <div className="box center" key={index}>
-            <img src="" alt="" />
+            <div className="img-container">
+              <img className="img-tag" src={member.path} alt="" />
+            </div>
+
             <div>
               <div className="user_name">{member.name}</div>
               <p className="skill">{member.position}</p>

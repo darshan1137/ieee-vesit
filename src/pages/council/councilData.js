@@ -3,6 +3,7 @@ const data = {
     {
       name: "Darshan Khapekar",
       position: "SE Coordinator",
+      path: "src/assets/council_images/SEs/darshan.jpg",
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/darshankhapekar/",
         instagram: "https://www.instagram.com/darshan.1137/",
