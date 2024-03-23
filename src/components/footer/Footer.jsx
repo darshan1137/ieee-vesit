@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMapMarker, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './Footer.css';
 
 const Footer = () => {
@@ -20,7 +23,7 @@ const Footer = () => {
 
       <div className="footer-center">
         <div>
-          <i className="fa fa-map-marker"></i>
+          <FontAwesomeIcon icon={faMapMarker} />
           <p>
             <span><a href="https://goo.gl/maps/ZB7bSb3nF2v1z1mC9">Vivekanand Education Society's Institute Of Technology
                 <br />
@@ -30,13 +33,13 @@ const Footer = () => {
         </div>
 
         <div>
-          <i className="fa fa-phone"></i>
+          <FontAwesomeIcon icon={faPhone} />
           <p>
             <span><a href="tel:+919869679027">+91 9869679027</a></span>
           </p>
         </div>
         <div>
-          <i className="fa fa-envelope"></i>
+          <FontAwesomeIcon icon={faEnvelope} />
           <p>
             <span><a href="mailto:ieee.vesit@ves.ac.in">ieee.vesit@ves.ac.in</a></span>
           </p>
@@ -50,9 +53,9 @@ const Footer = () => {
           stands for Institute of Electrical and Electronics Engineers.
         </p>
         <div className="footer-icons">
-          <a href="https://github.com/ieee-vesit" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
-          <a href="https://www.instagram.com/ieee_vesit/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/company/ieeevesit/mycompany/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
+          <a href="https://github.com/ieee-vesit" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+          <a href="https://www.instagram.com/ieee_vesit/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+          <a href="https://www.linkedin.com/company/ieeevesit/mycompany/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
         </div>
       </div>
     </footer>
