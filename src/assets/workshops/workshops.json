@@ -1,0 +1,39 @@
+
+
+[
+    {
+        "title": "Dev Hub India",
+        "subtitle": "Sub-Title",
+        "date": "12 March 2024",
+        "image_path": "src/assets/workshops/workshops/devhubIndia.png",
+        "description": "Description for Event 1."
+    },
+    {
+        "title": "Jarvis",
+        "subtitle": "Sub-Title",
+        "date": "12 March 2024",
+        "image_path": "src/assets/workshops/workshops/jarvis.png",
+        "description": "Description for Event 2."
+    },
+    {
+        "title": "Tableau",
+        "subtitle": "Sub-Title",
+        "date": "12 March 2024",
+        "image_path": "src/assets/workshops/workshops/tableau.jpg",
+        "description": "Description for Event 3."
+    },
+    {
+        "title":"UI-UX",
+        "subtitle": "Sub-Title",
+        "date": "12 March 2024",
+        "image_path": "src/assets/workshops/workshops/uiux.png",
+        "description": "Description for Event 3."
+    },
+    {
+        "title":"Advance Excel",
+        "subtitle": "Sub-Title",
+        "date": "12 March 2024",
+        "image_path": "src/assets/workshops/workshops/advexcel.jpg",
+        "description": "Description for Event 3."
+    }
+]
