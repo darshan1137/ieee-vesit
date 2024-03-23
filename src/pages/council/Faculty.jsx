@@ -1,21 +1,20 @@
 import React, { useEffect } from "react";
-import "./Council.css";
+import './Council.css';
 import facultyData from "./CD";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faTimes, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faTimes, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Faculty = () => {
   useEffect(() => {
+    const clc = document.querySelectorAll(".cancel");
+    const arr = document.querySelectorAll(".arr_container");
+    const left_container = document.querySelectorAll(".left_container");
+
     const handleClick = (i) => {
-      const arr = document.querySelectorAll(".arr_container");
-      const left_container = document.querySelectorAll(".left_container");
       arr[i].classList.toggle("active_arr");
       left_container[i].classList.toggle("off");
       left_container[i].classList.toggle("active");
     };
-
-    const clc = document.querySelectorAll(".cancel");
-    const arr = document.querySelectorAll(".arr_container");
 
     for (let i = 0; i < arr.length; i++) {
       arr[i].addEventListener("click", () => handleClick(i));
@@ -30,7 +29,7 @@ const Faculty = () => {
       }
     };
   }, []);
-
+  
   return (
     <div className="faculty">
       <div style={{ marginTop: "30px" }}>
