@@ -1,16 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+.contact_body{
+  
 }
 
-body {
-    
-    display: grid;
-    align-items: center;
-    background: var(--dark-black);
-    font-family: 'Poppins', sans-serif;
-}
 
 :root {
     --surface-color: #000;
@@ -41,6 +33,7 @@ body {
     cursor: pointer;
     box-shadow: 8px 8px 10px -6px #ff2a6d;
 }
+
 
 .card__image {
     max-width: 100%;
@@ -133,6 +126,9 @@ body {
 
 .ftco-section {
     padding-top: 10px;
+}
+.contact-form{
+    box-sizing: border-box;
 }
 
 .contact-in {

@@ -56,7 +56,7 @@ const Faculty = () => {
                   <FontAwesomeIcon icon={faEnvelope} />
                 </a>
               </div>
-              <div className="cancel center">
+              <div className="cancel center" onClick={() => handleClick(index)}>
                 <FontAwesomeIcon icon={faTimes} />
               </div>
             </div>

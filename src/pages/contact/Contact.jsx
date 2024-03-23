@@ -48,7 +48,7 @@ function Contact() {
 
   return (
     <>
-      <div style={{ marginTop: "30px" }}>
+      <div className="contact_body"style={{ marginTop: "30px" }}>
         <center>
           <p className="ieee_title">CONTACT US</p>
         </center>
@@ -165,6 +165,7 @@ function Contact() {
         </h2>
         <p className="ieee_title">EMAIL US</p>
       </center>
+      <div className="contact-form">
       <div className="contact-in">
         <div className="contact-map">
           <iframe
@@ -260,6 +261,8 @@ function Contact() {
           </form>
         </div>
       </div>
+      </div>
+      
     </>
   );
 }
