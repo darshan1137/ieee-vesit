@@ -2,7 +2,7 @@
 
 [
     {
-        "title": "Money Heist",
+        "title": "Money Heist ‘23",
         "subtitle": "Praxis 2023",
         "date": "3rd March 2023",
         "image_path": "src/assets/Events/events/praxis.jpg",
@@ -18,27 +18,20 @@
     
     {
         "title": "Symposium: Melange ‘23",
-        "subtitle": "Council '23 Sign-Of",
-        "date": "13th March 2023",
+        "subtitle": "Council'23 Sign-Of",
+        "date": "13th April 2023",
         "image_path": "src/assets/Events/events/praxis.jpg",
         "description": "A fun event conducted to test participants' technical, analytical, and general knowledge.7 teams participated."
     },
     
     {
-        "title": "OMEN VALORANT CAMPUS QUEST",
+        "title": "OMEN Valorant Campus Quest",
         "subtitle": "Gaming-Event",
         "date": "11th & 12th September 2023",
         "image_path": "src/assets/Events/events/praxis.jpg",
         "description": " A gaming event conducted by IEEE-VESIT and HP laptops for promoting their OMEN gaming laptop series.There were 216 participants."
     },
    
-    {
-        "title": "Byte Size Talk on Career Guidance",
-        "subtitle": "Career Guidance",
-        "date": " 4th October 2023",
-        "image_path": "src/assets/Events/events/praxis.jpg",
-        "description": "Talk about how we can find our feet and do well in a world so fast-moving and vast."
-    },
     {
         "title": "Crimson Clues",
         "subtitle": "Tech-Event",
@@ -47,14 +40,14 @@
         "description": "A fun event conducted to test participants' technical, analytical, and general knowledge.17 teams participated."
     },
     {
-        "title": "MONEY HEIST",
+        "title": "Money Heist ‘24",
         "subtitle": "Praxis 2024",
         "date": "5th March 2024",
         "image_path": "src/assets/Events/events/praxis.jpg",
         "description": "In this event, a character called “The Professornd“ 3 team members try to steal Gold from the Royal Mint of VESIT and escape successfully."
     },
     {
-        "title": " ONE PIECE",
+        "title": " One Piece",
         "subtitle": "Praxis 2024",
         "date": "5th March 2024",
         "image_path": "src/assets/Events/events/praxis.jpg",
