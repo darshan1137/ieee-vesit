@@ -1,3 +1,16 @@
+//BEs
+import Sheryl from "../../assets/council_images/SC/jpeg-optimizer_ChairPerson_Sheryl.jpg"
+import Aditi from "../../assets/council_images/SC/jpeg-optimizer_Aditi_CEO.jpg"
+import Dhanshree from "../../assets/council_images/SC/jpeg-optimizer_SrEditor_Dhanshree_Pandey.jpg"
+import Ashutosh from "../../assets/council_images/SC/jpeg-optimizer_Ashutosh_Mishra_SrTAB.jpg"
+import Hitesh from "../../assets/council_images/SC/jpeg-optimizer_Hitesh_Kapure_SrTab.jpg"
+import Flashy from "../../assets/council_images/SC/jpeg-optimizer_akash_sr_volunteer.jpg"
+import Parth from "../../assets/council_images/SC/jpeg-optimizer_Parth_Sr.Editor.jpeg"
+import Aditya from "../../assets/council_images/SC/jpeg-optimizer_Aditya_SrWeb.jpeg"
+import Gaonkar from "../../assets/council_images/SC/jpeg-optimizer_Atharv_Gaonkar .jpg"
+
+//SEs
+
 const data = {
   se: [
     {
@@ -14,7 +27,7 @@ const data = {
     {
       name: "Pranav Pol",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Pranav Pol D10A.JPG",
+      path: "src/assets/council_images/SEs/Pranav.JPG",
 
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/pranavpol/",
@@ -262,7 +275,7 @@ const data = {
     {
       name: "Sheryl Bellary",
       position: "Chairperson",
-      path: "src/assets/council_images/SC/jpeg-optimizer_ChairPerson_Sheryl.jpg",
+      path: Sheryl,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/sheryl-bellary/",
         instagram: "https://www.instagram.com/bellarysheryl/",
@@ -273,7 +286,7 @@ const data = {
     {
       name: "Aditi Bombe",
       position: "CEO",
-      path: "src/assets/council_images/SC/jpeg-optimizer_Aditi_CEO.jpg",
+      path: Aditi,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/aditi-bombe-0a6779217/",
         instagram: "https://www.instagram.com/adiitii_05/",
@@ -284,7 +297,7 @@ const data = {
     {
       name: "Ashutosh Mishra",
       position: "Sr. TAB",
-      path: "src/assets/council_images/SC/jpeg-optimizer_Ashutosh_Mishra_SrTAB.jpg",
+      path: Ashutosh,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/ashutoshm1808/",
         instagram: "https://www.instagram.com/ashutosh.tm/",
@@ -296,7 +309,7 @@ const data = {
     {
       name: "Hitesh Kapure",
       position: "Sr. TAB",
-      path: "src/assets/council_images/SC/jpeg-optimizer_Hitesh_Kapure_SrTab.jpg",
+      path: Hitesh,
       socialLinks: {
         instagram: "https://www.instagram.com/hitesh_kapure_59/",
         email: "2020.hitesh.kapure@ves.ac.in",
@@ -305,7 +318,7 @@ const data = {
     {
       name: "Atharv Gaonkar",
       position: "Sr. Treasurer",
-      path: "src/assets/council_images/SC/jpeg-optimizer_Atharv_Gaonkar .jpg",
+      path: Gaonkar,
       socialLinks: {
         instagram: "https://www.instagram.com/its_a_tharv/",
         email: "2020.atharv.gaonkar@ves.ac.in ",
@@ -314,7 +327,7 @@ const data = {
     {
       name: "Parth Suryavanshi",
       position: "Sr. Editor",
-      path: "src/assets/council_images/SC/jpeg-optimizer_Parth_Sr.Editor.jpeg",
+      path: Parth,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/parth-suryavanshi/",
         instagram: "https://www.instagram.com/parth.3102/",
@@ -347,7 +360,7 @@ const data = {
     {
       name: "Akash Choughule",
       position: "Sr. Volunteer",
-      path: "src/assets/council_images/SC/jpeg-optimizer_akash_sr_volunteer.jpg",
+      path: Flashy,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/akash-choughule-37a570242",
         instagram: "https://www.instagram.com/_akash_4real/",
