@@ -1,34 +1,19 @@
-import React, { useEffect } from "react";
+import React, { useEffect ,useState} from "react";
 import './Council.css';
 import facultyData from "./CD";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faTimes, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Faculty = () => {
-  useEffect(() => {
-    const clc = document.querySelectorAll(".cancel");
-    const arr = document.querySelectorAll(".arr_container");
-    const left_container = document.querySelectorAll(".left_container");
+  const [activeIndices, setActiveIndices] = useState([]);
 
-    const handleClick = (i) => {
-      arr[i].classList.toggle("active_arr");
-      left_container[i].classList.toggle("off");
-      left_container[i].classList.toggle("active");
-    };
-
-    for (let i = 0; i < arr.length; i++) {
-      arr[i].addEventListener("click", () => handleClick(i));
-      clc[i].addEventListener("click", () => handleClick(i));
-    }
-
-    return () => {
-      // Clean up event listeners when component unmounts
-      for (let i = 0; i < arr.length; i++) {
-        arr[i].removeEventListener("click", () => handleClick(i));
-        clc[i].removeEventListener("click", () => handleClick(i));
-      }
-    };
-  }, []);
+  const handleClick = (index) => {
+    setActiveIndices((prevIndices) =>
+      prevIndices.includes(index)
+        ? prevIndices.filter((i) => i !== index)
+        : [...prevIndices, index]
+    );
+  };
   
   return (
     <div className="faculty">
@@ -47,10 +32,15 @@ const Faculty = () => {
                 {faculty.department} Department
               </p>
             </div>
-            <div className="arr_container center">
+            <div className="arr_container center"
+            onClick={() => handleClick(index)}>
               <FontAwesomeIcon icon={faArrowRight} />
             </div>
-            <div className="left_container off">
+            <div
+              className={`left_container ${
+                activeIndices.includes(index) ? "active" : "off"
+              }`}
+            >
               <div className="icons">
                 <a href={`mailto:${faculty.email}`}>
                   <FontAwesomeIcon icon={faEnvelope} />
