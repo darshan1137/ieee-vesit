@@ -14,9 +14,8 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
-
 function Developers() {
-    const [activeIndices, setActiveIndices] = useState([]);
+  const [activeIndices, setActiveIndices] = useState([]);
 
   const handleClick = (index) => {
     setActiveIndices((prevIndices) =>
@@ -25,69 +24,76 @@ function Developers() {
         : [...prevIndices, index]
     );
   };
-  
+
   return (
     <>
-      <div className="contact_body"style={{ marginTop: "30px" }}>
+      <div className="contact_body" style={{ marginTop: "30px" }}>
         <center>
           <p className="ieee_title">Developers</p>
         </center>
 
-       
-
         <div className="main center" data-aos="zoom-in-up">
-        {developersData.devs.map((data, index) => (
-          <div className="box center" key={index}>
-            <img src={data.path} alt={data.name} loading="lazy" />
-            <div>
-              <div className="user_name">{data.name}</div>
-              <p className="skill">
-                {data.position}
-                <br />
-                {data.department} Department
-              </p>
-            </div>
-            <div
-              className="arr_container center"
-              onClick={() => handleClick(index)}
-            >
-              <FontAwesomeIcon icon={faArrowRight} />
-            </div>
-            <div
-              className={`left_container ${
-                activeIndices.includes(index) ? "active" : "off"
-              }`}
-            >
-              <div className="icons">
-                {Object.entries(data.socialLinks).map(([key, value], j) => (
-                  <a
-                    key={j}
-                    href={value}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {key === "github" && <FontAwesomeIcon icon={faGithub} />}
-                    {key === "linkedin" && (
-                      <FontAwesomeIcon icon={faLinkedin} />
-                    )}
-                    {key === "email" && <FontAwesomeIcon icon={faEnvelope} />}
-                    {key === "instagram" && (
-                      <FontAwesomeIcon icon={faInstagram} />
-                    )}
-                  </a>
-                ))}
+          {developersData.devs.map((data, index) => (
+            <div className="box center" key={index}>
+              <div className="img-container">
+                {data.path && (
+                  <img
+                    className="img-tag"
+                    src={data.path}
+                    alt={data.name}
+                    loading="lazy"
+                  />
+                )}
               </div>
-              <div className="cancel center" onClick={() => handleClick(index)}>
-                <FontAwesomeIcon icon={faTimes} />
+              <div>
+                <div className="user_name">{data.name}</div>
+                <p className="skill">
+                  {data.position}
+                  <br />
+                  {data.department} Department
+                </p>
+              </div>
+              <div
+                className="arr_container center"
+                onClick={() => handleClick(index)}
+              >
+                <FontAwesomeIcon icon={faArrowRight} />
+              </div>
+              <div
+                className={`left_container ${
+                  activeIndices.includes(index) ? "active" : "off"
+                }`}
+              >
+                <div className="icons">
+                  {Object.entries(data.socialLinks).map(([key, value], j) => (
+                    <a
+                      key={j}
+                      href={value}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {key === "github" && <FontAwesomeIcon icon={faGithub} />}
+                      {key === "linkedin" && (
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      )}
+                      {key === "email" && <FontAwesomeIcon icon={faEnvelope} />}
+                      {key === "instagram" && (
+                        <FontAwesomeIcon icon={faInstagram} />
+                      )}
+                    </a>
+                  ))}
+                </div>
+                <div
+                  className="cancel center"
+                  onClick={() => handleClick(index)}
+                >
+                  <FontAwesomeIcon icon={faTimes} />
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-      </div>
-
-     
-      
     </>
   );
 }

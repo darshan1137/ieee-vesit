@@ -14,7 +14,7 @@ import {
 import teamData from "./councilData";
 
 function Be() {
-    const [activeIndices, setActiveIndices] = useState([]);
+  const [activeIndices, setActiveIndices] = useState([]);
 
   const handleClick = (index) => {
     setActiveIndices((prevIndices) =>
@@ -31,7 +31,16 @@ function Be() {
       <div className="main center" data-aos="zoom-in-up">
         {teamData.be.map((data, index) => (
           <div className="box center" key={index}>
-            <img src={data.path} alt={data.name} loading="lazy" />
+            <div className="img-container">
+              {data.path && (
+                <img
+                  className="img-tag"
+                  src={data.path}
+                  alt={data.name}
+                  loading="lazy"
+                />
+              )}
+            </div>
             <div>
               <div className="user_name">{data.name}</div>
               <p className="skill">
@@ -60,7 +69,9 @@ function Be() {
                     rel="noopener noreferrer"
                   >
                     {key === "github" && <FontAwesomeIcon icon={faGithub} />}
-                    {key === "linkedin" && <FontAwesomeIcon icon={faLinkedin} />}
+                    {key === "linkedin" && (
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    )}
                     {key === "email" && <FontAwesomeIcon icon={faEnvelope} />}
                     {key === "instagram" && (
                       <FontAwesomeIcon icon={faInstagram} />

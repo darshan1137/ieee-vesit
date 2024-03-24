@@ -31,7 +31,16 @@ const JuniorCouncil = () => {
       <div className="main center" data-aos="zoom-in-up">
         {juniorCouncilData.Te.map((data, index) => (
           <div className="box center" key={index}>
-            <img src={data.path} alt={data.name} loading="lazy" />
+            <div className="img-container">
+              {data.path && (
+                <img
+                  className="img-tag"
+                  src={data.path}
+                  alt={data.name}
+                  loading="lazy"
+                />
+              )}
+            </div>
             <div>
               <div className="user_name">{data.name}</div>
               <p className="skill">
