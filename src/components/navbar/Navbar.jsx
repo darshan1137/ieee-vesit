@@ -1,6 +1,7 @@
 
 import './Navbar.css';
 import React, { useState } from 'react';
+import ieee_logo from '../../assets/layout/ieee_logo_white.png'
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
       <div className="container">
         <nav className="navbar1">
           <a href="/" className="nav-branding">
-            <img className="ieee_logo_white" src="{{url_for('static', filename='images/layout/ieee_logo_white.png')}}" alt="" />
+            <img className="ieee_logo_white" src={ieee_logo} alt="" />
             <p className="ieee_vesit-nav">IEEE-VESIT</p>
           </a>
           <ul className={`nav-menu ${isActive ? 'active' : ''}`}>
