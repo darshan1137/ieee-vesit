@@ -140,7 +140,7 @@
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 10px;
-    background: #fff;
+    background: #232328;
     box-shadow: 8px 8px 10px -6px #ff2a6d;
 }
 
@@ -170,7 +170,7 @@
 .contact-form-txt {
     width: 100%;
     height: 40px;
-    color: #000;
+    color: #f1eaea;
     border: 1px solid #bcbcbc;
     border-radius: 50px;
     outline: none;
@@ -179,13 +179,13 @@
 }
 
 .contact-form-txt::placeholder {
-    color: #aaa;
+    color: #faf1f1;
 }
 
 .contact-form-textarea {
     width: 100%;
     height: 130px;
-    color: #000;
+    color: #ecdcdc;
     border: 1px solid #bcbcbc;
     border-radius: 10px;
     outline: none;

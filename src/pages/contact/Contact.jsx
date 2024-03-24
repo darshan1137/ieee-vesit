@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./contact.css";
 import facultyData from "../council/CD";
+// import img from "src/assests/"
 import { db } from "../../Firebase/config";
 import {
   doc,
@@ -122,7 +123,7 @@ function Contact() {
               </div>
             </div>
             <div className="box center">
-              <img src="" alt="" />
+              <img src="src/assets/council_images/JC\Anoushka_Menon_secretary.jpg" alt="" />
               <div>
                 <div className="user_name">Anoushka Menon</div>
                 <p className="skill">Secretary</p>
@@ -139,7 +140,7 @@ function Contact() {
               </div>
             </div>
             <div className="box center">
-              <img src="" alt="" />
+              <img src="src/assets/council_images/JC\GAURANG RANE.jpeg" alt="" />
               <div>
                 <div className="user_name">Gaurang Rane</div>
                 <p className="skill">MEO</p>
