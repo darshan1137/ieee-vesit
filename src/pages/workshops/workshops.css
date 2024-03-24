@@ -127,6 +127,10 @@ body{
   padding-bottom: 0;
 }
 
+.description-txt{
+    text-align: justify;
+}
+
 .container1 .card:hover .contentBx .size{
   opacity: 1;
   visibility: visible;

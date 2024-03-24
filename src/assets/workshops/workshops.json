@@ -2,38 +2,47 @@
 
 [
     {
-        "title": "Dev Hub India",
-        "subtitle": "Sub-Title",
-        "date": "12 March 2024",
-        "image_path": "src/assets/workshops/workshops/devhubIndia.png",
-        "description": "Description for Event 1."
+        "title":"UI-UX",
+        "subtitle": "UI-UX WORKSHOP",
+        "date": "13 September 2023",
+        "image_path": "src/assets/workshops/workshops/uiux.png",
+        "description": "Participants were taught about basic ui-ux components along with hands on experience. There were more than 80 participants."
+    },
+    {
+        "title":"UI-UX COMPETITION",
+        "subtitle": "UI-UX COMPETITION",
+        "date": "9th October 2023",
+        "image_path": "src/assets/workshops/workshops/uiuxcamp.png",
+        "description": "UI/UX COMPETITION in collaboration with Friends of Figma and Riddl.Design an app on Figma to help balance work and personal life."
     },
     {
         "title": "Jarvis",
-        "subtitle": "Sub-Title",
-        "date": "12 March 2024",
+        "subtitle": "Natural Language Processing",
+        "date": "21st & 22nd December 2023",
         "image_path": "src/assets/workshops/workshops/jarvis.png",
-        "description": "Description for Event 2."
+        "description": "Workshop on Natural Language Processing where participants made their own J.A.R.V.I.S., an A.I.-based desktop assistant.There were 60 participants."
     },
+    {
+        "title": "Dev Hub India",
+        "subtitle": "Web3 Fundamentals",
+        "date": "24th January 2024",
+        "image_path": "src/assets/workshops/workshops/devhubIndia.png",
+        "description": "Web3 wallets, Cairo, and essentials of OnlyDust and Rust were covered.70 participants were given Food, Goodies and Stickers."
+    },
+    
     {
         "title": "Tableau",
-        "subtitle": "Sub-Title",
-        "date": "12 March 2024",
+        "subtitle": "Tableau-Workshop",
+        "date": " 12th and 13th February 2024",
         "image_path": "src/assets/workshops/workshops/tableau.jpg",
-        "description": "Description for Event 3."
+        "description": "In this workshop, participants were taught the basics of Tableau and how to create a dashboard using a large dataset(Netflix users' data) and graphing using different parameters."
     },
-    {
-        "title":"UI-UX",
-        "subtitle": "Sub-Title",
-        "date": "12 March 2024",
-        "image_path": "src/assets/workshops/workshops/uiux.png",
-        "description": "Description for Event 3."
-    },
+   
     {
         "title":"Advance Excel",
-        "subtitle": "Sub-Title",
-        "date": "12 March 2024",
+        "subtitle": "AdvanceExcel Workshop",
+        "date": "21st and 22nd February 2024",
         "image_path": "src/assets/workshops/workshops/advexcel.jpg",
-        "description": "Description for Event 3."
+        "description": "Basic commands and uses of Excel alomg with hands on  project which was created using advanced commands of Excel to create a dashboard."
     }
 ]

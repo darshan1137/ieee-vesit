@@ -23,7 +23,7 @@ const Workshops = () => {
 
         <div class="row">
   <div class="main-container">
-    <p class="ieee_title">Workshops</p>
+    <p class="ieee_title">Events</p>
     
      <div class="container1">
      {events.map(event =>(

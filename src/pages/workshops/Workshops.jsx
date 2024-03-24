@@ -38,9 +38,9 @@ const Workshops = () => {
           <div class="size">
           <h2>{event.subtitle}</h2>
           </div>
-          <div class="color">
-          </div>
+          <div class="color description-txt">
           <p>{event.description}</p>
+          </div>
         </div>
       </div>
       </div>))}

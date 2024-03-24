@@ -2,11 +2,71 @@
 
 [
     {
-        "title": "Praxis",
-        "subtitle": "Sub-Title",
-        "date": "12 March 2024",
+        "title": "Money Heist",
+        "subtitle": "Praxis 2023",
+        "date": "3rd March 2023",
         "image_path": "src/assets/Events/events/praxis.jpg",
-        "description": "Description for Event 1."
+        "description": "The series, Money Heist, was recreated: 1 participant on the stage guided the other team members on how to move forward to steal the gold bars from the vaults. Around 134 students participated in this event."
+    },
+    {
+        "title": "VESIT-Tank",
+        "subtitle": "Women in Engineering Post-Praxis event",
+        "date": "8th March 2023",
+        "image_path": "src/assets/Events/events/praxis.jpg",
+        "description": "VESIT-Tank was our version of Shark Tank to tap into the business brain of students.6 teams participated."
+    },
+    
+    {
+        "title": "Symposium: Melange ‘23",
+        "subtitle": "Council '23 Sign-Of",
+        "date": "13th March 2023",
+        "image_path": "src/assets/Events/events/praxis.jpg",
+        "description": "A fun event conducted to test participants' technical, analytical, and general knowledge.7 teams participated."
+    },
+    
+    {
+        "title": "OMEN VALORANT CAMPUS QUEST",
+        "subtitle": "Gaming-Event",
+        "date": "11th & 12th September 2023",
+        "image_path": "src/assets/Events/events/praxis.jpg",
+        "description": " A gaming event conducted by IEEE-VESIT and HP laptops for promoting their OMEN gaming laptop series.There were 216 participants."
+    },
+   
+    {
+        "title": "Byte Size Talk on Career Guidance",
+        "subtitle": "Career Guidance",
+        "date": " 4th October 2023",
+        "image_path": "src/assets/Events/events/praxis.jpg",
+        "description": "Talk about how we can find our feet and do well in a world so fast-moving and vast."
+    },
+    {
+        "title": "Crimson Clues",
+        "subtitle": "Tech-Event",
+        "date": "30th January 2024",
+        "image_path": "src/assets/Events/events/praxis.jpg",
+        "description": "A fun event conducted to test participants' technical, analytical, and general knowledge.17 teams participated."
+    },
+    {
+        "title": "MONEY HEIST",
+        "subtitle": "Praxis 2024",
+        "date": "5th March 2024",
+        "image_path": "src/assets/Events/events/praxis.jpg",
+        "description": "In this event, a character called “The Professornd“ 3 team members try to steal Gold from the Royal Mint of VESIT and escape successfully."
+    },
+    {
+        "title": " ONE PIECE",
+        "subtitle": "Praxis 2024",
+        "date": "5th March 2024",
+        "image_path": "src/assets/Events/events/praxis.jpg",
+        "description": "A fun-tech event conducted to test participants' technical and analytical thinking in a game of ludo.The total number of students participating in One Piece were 48 students."
+    },
+    {
+        "title": "Self-Defence Workshop",
+        "subtitle": "Praxis 2024",
+        "date": "5th March 2024",
+        "image_path": "src/assets/Events/events/praxis.jpg",
+        "description": "A fun-tech event conducted to test participants' technical and analytical thinking in a game of ludo.The total number of students participating in One Piece were 48 students."
     }
    
+    
 ]
