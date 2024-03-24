@@ -10,6 +10,10 @@ import {
   serverTimestamp,
   setDoc,
 } from "firebase/firestore";
+import aditi from "../../assets/council_images/SC/jpeg-optimizer_Aditi_CEO.jpg";
+import sheryl from "../../assets/council_images/SC/jpeg-optimizer_ChairPerson_Sheryl.jpg";
+import anoushka from "../../assets/council_images/JC/Anoushka_Menon_secretary.jpg";
+import gaurang from "../../assets/council_images/JC/GAURANG RANE.jpeg";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -84,7 +88,7 @@ function Contact() {
           <div className="main center" data-aos="zoom-in-up">
             <div className="box center">
               <img
-                src="src/assets/council_images/SC/jpeg-optimizer_ChairPerson_Sheryl.jpg"
+                src={sheryl}
                 alt=""
               />
               <div>
@@ -104,7 +108,7 @@ function Contact() {
             </div>
             <div className="box center">
               <img
-                src="src/assets/council_images/SC/jpeg-optimizer_Aditi_CEO.jpg"
+                src={aditi}
                 alt=""
               />
               <div>
@@ -124,7 +128,7 @@ function Contact() {
             </div>
             <div className="box center">
               <img
-                src="src/assets/council_images/JC\Anoushka_Menon_secretary.jpg"
+                src={anoushka}
                 alt=""
               />
               <div>
@@ -144,7 +148,7 @@ function Contact() {
             </div>
             <div className="box center">
               <img
-                src="src/assets/council_images/JC\GAURANG RANE.jpeg"
+                src={gaurang}
                 alt=""
               />
               <div>

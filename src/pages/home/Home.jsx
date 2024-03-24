@@ -175,7 +175,7 @@ const Home = () => {
             </div>
 
             {/* Upcoming Events */}
-            <div className="upcoming-events">
+            {/* <div className="upcoming-events">
               <h1 className="ieee_title">UPCOMING EVENTS</h1>
               <div className="upcoming-events-wrap">
                 <img
@@ -199,7 +199,7 @@ const Home = () => {
                   alt="Upcoming Poster"
                 />
               </div>
-            </div>
+            </div> */}
 
             {/* Testimonials */}
             <div className="testimonials">

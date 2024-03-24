@@ -13,7 +13,7 @@ import Gaonkar from "../../assets/council_images/SC/jpeg-optimizer_Atharv_Gaonka
 import Darshan from "../../assets/council_images/SEs/darshan.jpg";
 import Shravani from "../../assets/council_images/SEs/jpeg-optimizer_Shravani Rasam D10A.jpg";
 import Pranav from "../../assets/council_images/SEs/PranavPol.jpg";
-import Advik from "../../assets/council_images/SEs/Advik.jpg";
+import Advik from "../../assets/council_images/SEs/advik.jpg";
 import Anshi from "../../assets/council_images/SEs/Anshi.jpg";
 import Shreyash from "../../assets/council_images/SEs/Shreyash.jpg";
 import Shantanu from "../../assets/council_images/SEs/Shantanu.jpg";
