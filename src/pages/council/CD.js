@@ -1,5 +1,6 @@
 import Gresha from "../../assets/council_images/faculty/GreshaBhatia.jpg";
 import Ashwini from "../../assets/council_images/faculty/AshwiniSawant.jpeg";
+import Anoushka from "../../assets/council_images/JC/Anoushka_Menon_secretary.jpg";
 
 const data = {
   se: [
@@ -45,7 +46,7 @@ const data = {
     {
       name: "Anoushka Menon",
       position: "Secretary",
-      path: "src/assets/council_images/JC/Anoushka_Menon_secretary.jpg",
+      path: Anoushka,
       socialLinks: {
         linkedin: "http://www.linkedin.com/in/anoushka--menon",
         instagram: "https://www.instagram.com/anoushka_menon/",
@@ -56,7 +57,7 @@ const data = {
     {
       name: "Gaurang Rane",
       position: "MEO",
-      path: "src/assets/council_images/JC/GAURANG RANE.jpeg",
+      path: "../../assets/council_images/JC/GAURANG RANE.jpeg",
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/gaurang-rane-a45335245",
         instagram: "https://www.instagram.com/___thegaurang___/",
@@ -67,7 +68,7 @@ const data = {
     {
       name: "Kaushik Puli",
       position: "MPEO",
-      path: "src/assets/council_images/JC/Kaushik_mpeo.jpg",
+      path: "../../assets/council_images/JC/Kaushik_mpeo.jpg",
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/kaushik-puli-451943260",
         instagram: "https://www.instagram.com/kaushik04__/",
@@ -78,7 +79,7 @@ const data = {
     {
       name: "Shraavani Tople",
       position: "MPEO",
-      path: "src/assets/council_images/JC/Shraavani_mpeo.jpg",
+      path: "../../assets/council_images/JC/Shraavani_mpeo.jpg",
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/shraavani-tople",
         instagram: "https://www.instagram.com/shraavani___/",
@@ -89,7 +90,7 @@ const data = {
     {
       name: "Aditri Vishwas",
       position: "Jr. Web Editor",
-      path: "src/assets/council_images/JC/Aditri-jr_web_editor.jpeg",
+      path: "../../assets/council_images/JC/Aditri-jr_web_editor.jpeg",
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/aditri-vishwas-382780280",
         instagram: "https://www.instagram.com/aditri3105/",
@@ -101,7 +102,7 @@ const data = {
     {
       name: "Sneha Sumbe",
       position: "Jr. Web Editior ",
-      path: "src/assets/council_images/JC/sneha_jr_web_editor.jpg",
+      path: "../../assets/council_images/JC/sneha_jr_web_editor.jpg",
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/sneha-sumbe-642b45260",
         instagram: "https://www.instagram.com/snehhha___26/",
@@ -112,7 +113,7 @@ const data = {
     {
       name: "Vinay Israni ",
       position: "Volunteers",
-      path: "src/assets/council_images/JC/vinay_israni_volunteer.jpg",
+      path: "../../assets/council_images/JC/vinay_israni_volunteer.jpg",
       socialLinks: {
         linkedin: "Vinay Israni ",
         instagram: "https://www.instagram.com/vinay.israni_14/",
@@ -123,7 +124,7 @@ const data = {
     {
       name: "Prasad Gourshettiwar ",
       position: "Jr.TAB",
-      path: "src/assets/council_images/JC/Prasad_jr_tab.jpg",
+      path: "../../assets/council_images/JC/Prasad_jr_tab.jpg",
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/prasad-gourshettiwar-4aa716227",
         instagram: "https://www.instagram.com/prasadgourshettiwar/",
@@ -135,7 +136,7 @@ const data = {
     {
       name: "Atharva Baheti",
       position: "Volunteer ",
-      path: "src/assets/council_images/JC/baheti_volunteer.jpg",
+      path: "../../assets/council_images/JC/baheti_volunteer.jpg",
       socialLinks: {
         linkedin: "",
         instagram: "https://www.instagram.com/atharva_baheti/",
@@ -146,7 +147,7 @@ const data = {
     {
       name: "Shamaila Ansari",
       position: "Volunteer",
-      path: "src/assets/council_images/JC/Shamaila_volunteer.jpg",
+      path: "../../assets/council_images/JC/Shamaila_volunteer.jpg",
       socialLinks: {
         linkedin: "http://www.linkedin.com/in/shamaila-ansari-285809268",
         instagram: "https://www.instagram.com/_shamaila_a/",
@@ -157,7 +158,7 @@ const data = {
     {
       name: "Kirti Eppanapelli",
       position: "Jr. Editor",
-      path: "src/assets/council_images/JC/Kirti_jr_editor.jpg",
+      path: "../../assets/council_images/JC/Kirti_jr_editor.jpg",
       socialLinks: {
         linkedin: "",
         instagram: "https://www.instagram.com/kirti_epp11/",
@@ -168,7 +169,7 @@ const data = {
     {
       name: "Akash Fatnani",
       position: "Jr. Treasurer",
-      path: "src/assets/council_images/JC/Akash_jr_treasurer.jpg",
+      path: "../../assets/council_images/JC/Akash_jr_treasurer.jpg",
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/akash-fatnani-5805a8237/",
         instagram: "https://www.instagram.com/the_akash_fatnani/",
@@ -179,7 +180,7 @@ const data = {
     {
       name: "Unnati Ayalwar ",
       position: "Women in Engineering ",
-      path: "src/assets/council_images/JC/unnati_wie.jpg",
+      path: "../../assets/council_images/JC/unnati_wie.jpg",
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/unnati-ayalwar",
         instagram: "https://www.instagram.com/unnati_pravin/",
@@ -190,7 +191,7 @@ const data = {
     {
       name: "Rishika Chaubal",
       position: "GEO",
-      path: "src/assets/council_images/JC/Rishika_geo.jpg",
+      path: "../../assets/council_images/JC/Rishika_geo.jpg",
       socialLinks: {
         linkedin: "",
         instagram: "https://www.instagram.com/rishika.chaubal/",
@@ -201,7 +202,7 @@ const data = {
     {
       name: "Yash Uskelwar",
       position: "Jr. TAB",
-      path: "src/assets/council_images/JC/Yash_jr_tab.jpg",
+      path: "../../assets/council_images/JC/Yash_jr_tab.jpg",
       socialLinks: {
         linkedin: "",
         instagram: "https://www.instagram.com/superyashblogs/",
@@ -212,7 +213,7 @@ const data = {
     {
       name: "Vrushabh Karavde",
       position: "GEO",
-      path: "src/assets/council_images/JC/vrushabh_geo.jpg",
+      path: "../../assets/council_images/JC/vrushabh_geo.jpg",
       socialLinks: {
         linkedin: "",
         instagram: "https://www.instagram.com/bas_vrishi/",
@@ -223,7 +224,7 @@ const data = {
     {
       name: "Tejas Chorge",
       position: "Jr. TAB",
-      path: "src/assets/council_images/JC/tejas_chorge_jr_editor.jpg",
+      path: "../../assets/council_images/JC/tejas_chorge_jr_editor.jpg",
       socialLinks: {
         linkedin: "",
         instagram: "https://www.instagram.com/_tejas_08_/",
