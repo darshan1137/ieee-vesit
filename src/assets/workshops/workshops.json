@@ -2,18 +2,19 @@
 
 [
     {
-        "title": "Byte Size Talk on Career Guidance",
-        "subtitle": "Career Guidance",
-        "date": " 4th October 2023",
-        "image_path": "src/assets/workshops/workshops/jarvis.png",
-        "description": "Talk about how we can find our feet and do well in a world so fast-moving and vast."
-    },
-    {
         "title":"UI-UX",
         "subtitle": "UI-UX Workshop",
         "date": "13 September 2023",
         "image_path": "src/assets/workshops/workshops/uiux.png",
         "description": "Participants were taught about basic ui-ux components along with hands on experience. There were more than 80 participants."
+    },
+    
+    {
+        "title": "Byte Size Talk on Career Guidance",
+        "subtitle": "Career Guidance",
+        "date": " 4th October 2023",
+        "image_path": "src/assets/workshops/workshops/bytesize.jpeg",
+        "description": "Talk about how we can find our feet and do well in a world so fast-moving and vast."
     },
    
     {

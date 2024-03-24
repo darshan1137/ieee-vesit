@@ -5,22 +5,22 @@
         "title": "Money Heist ‘23",
         "subtitle": "Praxis 2023",
         "date": "3rd March 2023",
-        "image_path": "src/assets/Events/events/praxis.jpg",
+        "image_path": "src/assets/Events/events/mh23.jpeg",
         "description": "The series, Money Heist, was recreated: 1 participant on the stage guided the other team members on how to move forward to steal the gold bars from the vaults. Around 134 students participated in this event."
     },
     {
         "title": "VESIT-Tank",
         "subtitle": "Women in Engineering Post-Praxis event",
         "date": "8th March 2023",
-        "image_path": "src/assets/Events/events/praxis.jpg",
+        "image_path": "src/assets/Events/events/vesittank.jpeg",
         "description": "VESIT-Tank was our version of Shark Tank to tap into the business brain of students.6 teams participated."
     },
     
     {
         "title": "Symposium: Melange ‘23",
-        "subtitle": "Council'23 Sign-Of",
+        "subtitle": "Council'23 SignOf",
         "date": "13th April 2023",
-        "image_path": "src/assets/Events/events/praxis.jpg",
+        "image_path": "src/assets/Events/events/sympo23.jpeg",
         "description": "A fun event conducted to test participants' technical, analytical, and general knowledge.7 teams participated."
     },
     
@@ -28,7 +28,7 @@
         "title": "OMEN Valorant Campus Quest",
         "subtitle": "Gaming-Event",
         "date": "11th & 12th September 2023",
-        "image_path": "src/assets/Events/events/praxis.jpg",
+        "image_path": "src/assets/Events/events/valorent.jpeg",
         "description": " A gaming event conducted by IEEE-VESIT and HP laptops for promoting their OMEN gaming laptop series.There were 216 participants."
     },
    
@@ -36,7 +36,7 @@
         "title": "Crimson Clues",
         "subtitle": "Tech-Event",
         "date": "30th January 2024",
-        "image_path": "src/assets/Events/events/praxis.jpg",
+        "image_path": "src/assets/Events/events/crimsonclues.jpeg",
         "description": "A fun event conducted to test participants' technical, analytical, and general knowledge.17 teams participated."
     },
     {
@@ -57,7 +57,7 @@
         "title": "Self-Defence Workshop",
         "subtitle": "Praxis 2024",
         "date": "5th March 2024",
-        "image_path": "src/assets/Events/events/praxis.jpg",
+        "image_path": "src/assets/Events/events/selfdefence.jpeg",
         "description": "A fun-tech event conducted to test participants' technical and analytical thinking in a game of ludo.The total number of students participating in One Piece were 48 students."
     }
    
