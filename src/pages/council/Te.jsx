@@ -46,7 +46,7 @@ const JuniorCouncil = () => {
               <p className="skill">
                 {data.position}
                 <br />
-                {data.department} Department
+                {data.department}
               </p>
             </div>
             <div

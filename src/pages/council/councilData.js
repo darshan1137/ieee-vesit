@@ -120,8 +120,8 @@ const data = {
     },
     {
       name: "Kshitij Patki",
-      position: Kshitij,
-      path: "src/assets/council_images/SEs/jpeg-optimizer_kshitij_patki.JPG",
+      position: "SE Coordinator",
+      path: Kshitij,
 
       socialLinks: {
         instagram: "https://www.instagram.com/kshitij_1612/",
