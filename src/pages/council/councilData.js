@@ -37,7 +37,7 @@ const data = {
     {
       name: "Advik Hegde",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/",
+      path: "src/assets/council_images/SEs/advik.jpg",
 
       socialLinks: {
         linkedin:

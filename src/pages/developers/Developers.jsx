@@ -50,7 +50,7 @@ function Developers() {
                 <p className="skill">
                   {data.position}
                   <br />
-                  {data.department} Department
+                  {/* {data.department} Department */}
                 </p>
               </div>
               <div

@@ -1,30 +1,78 @@
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
-import Home from "./pages/home/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Landing from "./pages/landing/Landing";
 import Contact from "./pages/contact/Contact";
-import Events from "./pages/events/Events"; 
-import Workshops from "./pages/workshops/Workshops"; 
+import Events from "./pages/events/Events";
+import Workshops from "./pages/workshops/Workshops";
 import Magazines from "./pages/magazines/Magazines";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
-import Council from './pages/council/Council';
+import Council from "./pages/council/Council";
 import Developers from "./pages/developers/Developers";
 
 function App() {
   return (
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/council"
+          element={
+            <WithNavbarAndFooter>
+              <Council />
+            </WithNavbarAndFooter>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <WithNavbarAndFooter>
+              <Contact />
+            </WithNavbarAndFooter>
+          }
+        />
+        <Route
+          path="/developers"
+          element={
+            <WithNavbarAndFooter>
+              <Developers />
+            </WithNavbarAndFooter>
+          }
+        />
+        <Route
+          path="/events"
+          element={
+            <WithNavbarAndFooter>
+              <Events />
+            </WithNavbarAndFooter>
+          }
+        />
+        <Route
+          path="/workshops"
+          element={
+            <WithNavbarAndFooter>
+              <Workshops />
+            </WithNavbarAndFooter>
+          }
+        />
+        <Route
+          path="/magazines"
+          element={
+            <WithNavbarAndFooter>
+              <Magazines />
+            </WithNavbarAndFooter>
+          }
+        />
+
+        <Route path="/" element={<Landing />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+function WithNavbarAndFooter({ children }) {
+  return (
     <>
       <Navbar />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/council" element={<Council />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/developers" element={<Developers />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/workshops" element={<Workshops />} />
-          <Route path="/magazines" element={<Magazines />} />
-         
-        </Routes>
-      </BrowserRouter>
+      {children}
       <Footer />
     </>
   );

@@ -13,7 +13,7 @@ import vanshRev from "../../assets/home/testimonials/vansh_rev.jpeg";
 import madhumitaRev from "../../assets/home/testimonials/madhumita_rev.jpeg";
 import membershipDrive from "../../assets/home/membership_drive.jpg";
 import upcomingPoster from "../../assets/home/upcoming_posters.png";
-import Preloader from "../Preloader";
+import Preloader from "../landing/Preloader";
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
