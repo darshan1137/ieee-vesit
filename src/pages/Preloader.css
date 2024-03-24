@@ -1,0 +1,22 @@
+.preloader-container {
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .preloader-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .preloader-name {
+    color: #fff;
+    font-size: 3xl;
+    font-family: 'BIZ UDPMincho', serif;
+    margin-left: 4px;
+    text-transform: uppercase;
+  }
+  

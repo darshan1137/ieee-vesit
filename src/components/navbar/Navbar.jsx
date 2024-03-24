@@ -43,6 +43,9 @@ const Navbar = () => {
               <li>
                 <a href="/contact">Contact us</a>
               </li>
+              <li>
+                <a href="/developers">Developers</a>
+              </li>
             </ul>
           </ul>
           <div className={`hamburger ${isActive ? 'active' : ''}`} onClick={toggleMenu}>

@@ -250,6 +250,77 @@ const data = {
       },
     },
   ],
+  devs:[
+    {
+      name: "Darshan Khapekar",
+      position: "SE Coordinator",
+      path: "src/assets/council_images/SEs/darshan.jpg",
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/darshankhapekar/",
+        instagram: "https://www.instagram.com/darshan.1137/",
+        github: "https://github.com/darshan1137",
+        email: "d2022.darshan.khapekar@ves.ac.in",
+      },
+    },
+    {
+      name: "Pranav Pol",
+      position: "SE Coordinator",
+      path: "src/assets/council_images/SEs/jpeg-optimizer_Pranav Pol D10A.JPG",
+
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/pranavpol/",
+        github: "https://github.com/PranavPol-01",
+        instagram: "https://www.instagram.com/pranav_pol/",
+        email: "2022.pranav.pol@ves.ac.in",
+      },
+    },
+    {
+      name: "Ashutosh Mishra",
+      position: "Sr. TAB",
+      path: "src/assets/council_images/SC/jpeg-optimizer_Ashutosh_Mishra_SrTAB.jpg",
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/ashutoshm1808/",
+        instagram: "https://www.instagram.com/ashutosh.tm/",
+        github: "https://github.com/ashutosh1808",
+        email: "2020.ashutosh.mishra@ves.ac.in",
+      },
+    },
+    {
+      name: "Shravani Rasam",
+      position: "SE coordinator",
+      path: "src/assets/council_images/SEs/jpeg-optimizer_Shravani Rasam D10A.jpg",
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/shravanirasam02/",
+        github: "https://github.com/ShravaniR2412/ShravaniR2412",
+        email: "2022.shravani.rasam@ves.ac.in",
+        instagram: "https://www.instagram.com/shravaniiii_ra02/",
+      },
+    },
+    {
+      name: "Advik Hegde",
+      position: "SE Coordinator",
+      path: "src/assets/council_images/SEs/",
+
+      socialLinks: {
+        linkedin:
+          "https://www.linkedin.com/in/advik-hegde-493018295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: "https://github.com/AdvikHegde",
+        instagram: "https://www.instagram.com/advik_hegde_/",
+        email: "2022.advik.hegde@ves.ac.in",
+      },
+    },
+    {
+      name: "Anshi Tiwari",
+      position: "SE Coordinator",
+      path: "src/assets/council_images/SEs/jpeg-optimizer_Anshi Tiwari D10C.JPG",
+
+      socialLinks: {
+        github: "https://github.com/anshi1108",
+        instagram: "https://www.instagram.com/blevjun/",
+        email: "2022.anshi.tiwari@ves.ac.in",
+      },
+    },
+  ]
 };
 
 export default data;

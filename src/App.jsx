@@ -7,6 +7,7 @@ import Magazines from "./pages/magazines/Magazines";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Council from './pages/council/Council';
+import Developers from "./pages/developers/Developers";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/council" element={<Council />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/developers" element={<Developers />} />
           <Route path="/events" element={<Events />} />
           <Route path="/workshops" element={<Workshops />} />
           <Route path="/magazines" element={<Magazines />} />

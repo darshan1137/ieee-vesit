@@ -1,0 +1,95 @@
+import React, { useState } from "react";
+import "./Developers.css";
+import developersData from "../council/CD";
+// import img from "src/assests/"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+  faTimes,
+  faArrowRight,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faLinkedin,
+  faInstagram,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+
+
+function Developers() {
+    const [activeIndices, setActiveIndices] = useState([]);
+
+  const handleClick = (index) => {
+    setActiveIndices((prevIndices) =>
+      prevIndices.includes(index)
+        ? prevIndices.filter((i) => i !== index)
+        : [...prevIndices, index]
+    );
+  };
+  
+  return (
+    <>
+      <div className="contact_body"style={{ marginTop: "30px" }}>
+        <center>
+          <p className="ieee_title">Developers</p>
+        </center>
+
+       
+
+        <div className="main center" data-aos="zoom-in-up">
+        {developersData.devs.map((data, index) => (
+          <div className="box center" key={index}>
+            <img src={data.path} alt={data.name} loading="lazy" />
+            <div>
+              <div className="user_name">{data.name}</div>
+              <p className="skill">
+                {data.position}
+                <br />
+                {data.department} Department
+              </p>
+            </div>
+            <div
+              className="arr_container center"
+              onClick={() => handleClick(index)}
+            >
+              <FontAwesomeIcon icon={faArrowRight} />
+            </div>
+            <div
+              className={`left_container ${
+                activeIndices.includes(index) ? "active" : "off"
+              }`}
+            >
+              <div className="icons">
+                {Object.entries(data.socialLinks).map(([key, value], j) => (
+                  <a
+                    key={j}
+                    href={value}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {key === "github" && <FontAwesomeIcon icon={faGithub} />}
+                    {key === "linkedin" && (
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    )}
+                    {key === "email" && <FontAwesomeIcon icon={faEnvelope} />}
+                    {key === "instagram" && (
+                      <FontAwesomeIcon icon={faInstagram} />
+                    )}
+                  </a>
+                ))}
+              </div>
+              <div className="cancel center" onClick={() => handleClick(index)}>
+                <FontAwesomeIcon icon={faTimes} />
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      </div>
+
+     
+      
+    </>
+  );
+}
+
+export default Developers;
