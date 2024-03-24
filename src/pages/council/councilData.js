@@ -10,13 +10,38 @@ import Aditya from "../../assets/council_images/SC/jpeg-optimizer_Aditya_SrWeb.j
 import Gaonkar from "../../assets/council_images/SC/jpeg-optimizer_Atharv_Gaonkar .jpg"
 
 //SEs
+import Darshan from "../../assets/council_images/SEs/darshan.jpg";
+import Shravani from "../../assets/council_images/SEs/jpeg-optimizer_Shravani Rasam D10A.jpg"
+import Pranav from "../../assets/council_images/SEs/PranavPol.jpg"
+import Advik from "../../assets/council_images/SEs/Advik.jpg"
+import Anshi from "../../assets/council_images/SEs/Anshi.jpg"
+import Shreyash from "../../assets/council_images/SEs/Shreyash.jpg"
+import Shantanu from "../../assets/council_images/SEs/Shantanu.jpg"
+
+import Kshitij from "../../assets/council_images/SEs/Kshitij.jpg"
+import Akshat from "../../assets/council_images/SEs/Akshat.jpg"
+
+import Purvi from "../../assets/council_images/SEs/Purvi.jpg"
+import Sandali from "../../assets/council_images/SEs/Sandali.jpg"
+import Khyati from "../../assets/council_images/SEs/Khayati.jpg"
+import Vaishnavi from "../../assets/council_images/SEs/Vaishnavi.jpg"
+import Ishan from "../../assets/council_images/SEs/Ishan.jpg"
+import Tanay from "../../assets/council_images/SEs/Tanay.jpg"
+import Kale from "../../assets/council_images/SEs/Kale.jpg"
+import Maiths from "../../assets/council_images/SEs/Maithili.jpg"
+import Anjali from "../../assets/council_images/SEs/Anjali.jpg"
+import Reet from "../../assets/council_images/SEs/Reet.jpg"
+import Anushka from "../../assets/council_images/SEs/Anushka.jpg"
+import Avantika from "../../assets/council_images/SEs/Avantika.jpg"
+import Veydant from "../../assets/council_images/SEs/Veydant.jpg"
+
 
 const data = {
   se: [
     {
       name: "Darshan Khapekar",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/darshan.jpg",
+      path: Darshan,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/darshankhapekar/",
         instagram: "https://www.instagram.com/darshan.1137/",
@@ -27,7 +52,7 @@ const data = {
     {
       name: "Pranav Pol",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/Pranav.JPG",
+      path: Pranav,
 
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/pranavpol/",
@@ -39,7 +64,7 @@ const data = {
     {
       name: "Shravani Rasam",
       position: "SE coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Shravani Rasam D10A.jpg",
+      path:Shravani,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/shravanirasam02/",
         github: "https://github.com/ShravaniR2412/ShravaniR2412",
@@ -50,7 +75,7 @@ const data = {
     {
       name: "Advik Hegde",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/advik.jpg",
+      path: Advik,
 
       socialLinks: {
         linkedin:
@@ -63,7 +88,7 @@ const data = {
     {
       name: "Anshi Tiwari",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Anshi Tiwari D10C.JPG",
+      path: Anshi,
 
       socialLinks: {
         github: "https://github.com/anshi1108",
@@ -74,7 +99,7 @@ const data = {
     {
       name: "Shreyash Das",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Shreyash Das D6.JPG",
+      path: Shreyash,
 
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/shreyash-das-b1260225a/",
@@ -85,7 +110,7 @@ const data = {
     {
       name: "Shantanu Bhosale",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Shantanu_Bhosale.JPG",
+      path: Shantanu,
 
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/shantanu-bhosale-b37839220/",
@@ -96,7 +121,7 @@ const data = {
     },
     {
       name: "Kshitij Patki",
-      position: "SE Coordinator",
+      position: Kshitij,
       path: "src/assets/council_images/SEs/jpeg-optimizer_kshitij_patki.JPG",
 
       socialLinks: {
@@ -107,7 +132,7 @@ const data = {
     {
       name: "Akshat Mahajan",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Akshat Mahajan_D7A.JPG",
+      path: Akshat,
 
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/akshat-mahajan/",
@@ -119,7 +144,7 @@ const data = {
     {
       name: "Purvi Prasad",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Purvi Prasad-D6.jpg",
+      path: Purvi,
 
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/purvi-prasad-753a06264/",
@@ -131,7 +156,7 @@ const data = {
     {
       name: "Sandali Bhat",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/",
+      path: Sandali,
 
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/sandali-bhat-1b3a27284/",
@@ -143,7 +168,7 @@ const data = {
     {
       name: "Khayati Joshi",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Khayati Joshi D9A .jpg",
+      path: Khyati,
 
       socialLinks: {
         instagram: "https://www.instagram.com/khyatss/",
@@ -153,7 +178,7 @@ const data = {
     {
       name: "Vaishnavi Yadav ",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Vaishnavi D9B.jpg",
+      path: Vaishnavi,
 
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/vaishnavi-yadav-740246263/",
@@ -164,7 +189,7 @@ const data = {
     {
       name: "Ishan Joshi",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Ishan Joshi D10C.jpg",
+      path: Ishan,
 
       socialLinks: {
         linkedin: "",
@@ -176,7 +201,7 @@ const data = {
     {
       name: "Tanay Baisware",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_TANAY BAISWARE_D8.jpg",
+      path: Tanay,
 
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/tanay-baisware-21ab5b24b/",
@@ -188,7 +213,7 @@ const data = {
     {
       name: "Shravani Kale",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Shravani Kale_D9A.jpg",
+      path: Kale,
 
       socialLinks: {
         linkedin: "",
@@ -200,7 +225,7 @@ const data = {
     {
       name: "Maithili Latey",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_maithili latey d9b.jpg",
+      path: Maiths,
 
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/maithili-latey-a8b645249/",
@@ -212,7 +237,7 @@ const data = {
     {
       name: "Anjali Thakrani",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Anjali Thakrani -D7B.JPG",
+      path: Anjali,
 
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/anjali-thakrani-b33aa4265/",
@@ -224,7 +249,7 @@ const data = {
     {
       name: "Reet Sharma",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/",
+      path: Reet,
 
       socialLinks: {
         linkedin: "",
@@ -236,7 +261,7 @@ const data = {
     {
       name: "Anushka Bhatnagar",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_AnushkaBhatnagarD6ADB.JPG",
+      path: Anushka,
 
       socialLinks: {
         linkedin: "",
@@ -248,7 +273,7 @@ const data = {
     {
       name: "Avantika Sharma",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Avantika Sharma-D6.jpg",
+      path: Avantika,
 
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/avantika31963293/",
@@ -260,7 +285,7 @@ const data = {
     {
       name: "Veydant Sharma",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Veydantsharma d10c.JPG",
+      path: Veydant,
 
       socialLinks: {
         linkedin: "http://www.linkedin.com/in/veydant-sharma-122339243",
