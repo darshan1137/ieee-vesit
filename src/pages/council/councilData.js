@@ -121,8 +121,8 @@ const data = {
     },
     {
       name: "Kshitij Patki",
-      position: Kshitij,
-      path: "src/assets/council_images/SEs/jpeg-optimizer_kshitij_patki.JPG",
+      position: "SE Coordinator",
+      path: Kshitij,
 
       socialLinks: {
         instagram: "https://www.instagram.com/kshitij_1612/",
@@ -363,7 +363,7 @@ const data = {
     {
       name: "Dhanshree Pandey",
       position: "Sr. Editor",
-      path: "src/assets/council_images/SC/jpeg-optimizer_SrEditor_Dhanshree_Pandey.jpg",
+      path: Dhanshree,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/dhanshree-pandey-56113724a",
         instagram: "https://www.instagram.com/dhanshree.p4001/",
@@ -374,7 +374,7 @@ const data = {
     {
       name: "Aditya Nehete",
       position: "Sr. Web Editor",
-      path: "src/assets/council_images/SC/jpeg-optimizer_Aditya_SrWeb.jpeg",
+      path: Aditya,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/aditya-nehete-392b0122b/",
         instagram: "https://www.instagram.com/aadi_nehete_15/",
