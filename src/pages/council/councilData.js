@@ -28,8 +28,10 @@ const data = {
       position: "SE coordinator",
       path: "src/assets/council_images/SEs/jpeg-optimizer_Shravani Rasam D10A.jpg",
       socialLinks: {
+        linkedin: "https://www.linkedin.com/in/shravanirasam02/",
         github: "https://github.com/ShravaniR2412/ShravaniR2412",
         email: "2022.shravani.rasam@ves.ac.in",
+        instagram: "https://www.instagram.com/shravaniiii_ra02/",
       },
     },
     {
