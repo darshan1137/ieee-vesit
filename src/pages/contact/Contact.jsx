@@ -49,7 +49,6 @@ function Contact() {
 
   return (
     <>
-      <Navbar />
       <div className="contact_body" style={{ marginTop: "30px" }}>
         <center>
           <p className="ieee_title">CONTACT US</p>

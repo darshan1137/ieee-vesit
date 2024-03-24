@@ -17,32 +17,14 @@ import Rishika from "../../assets/council_images/JC/Rishika_geo.jpg";
 import Yash from "../../assets/council_images/JC/Yash_jr_tab.jpg";
 import Vrishi from "../../assets/council_images/JC/vrushabh_geo.jpg";
 import Tejas from "../../assets/council_images/JC/tejas_chorge_jr_editor.jpg";
-
+import Darshan from "../../assets/council_images/SEs/darshan.jpg";
+import Pranav from "../../assets/council_images/SEs/Pranav.jpg";
+import Ashutosh from "../../assets/council_images/SC/jpeg-optimizer_Ashutosh_Mishra_SrTAB.jpg";
+import Shravani from "../../assets/council_images/SEs/jpeg-optimizer_Shravani Rasam D10A.jpg";
+import Advik from "../../assets/council_images/SEs/Advik.jpg";
+import Anshi from "../../assets/council_images/SEs/Anshi.jpg";
 
 const data = {
-  se: [
-    {
-      name: "Darshan Khapekar",
-      position: "SE Coordinator",
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/darshankhapekar/",
-        instagram: "https://www.instagram.com/darshan.1137/",
-        github: "https://github.com/darshan1137",
-        email: "d2022.darshan.khapekar@ves.ac.in",
-      },
-    },
-    {
-      name: "Pranav Pol",
-      position: "SE Coordinator",
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/pranavpol/",
-        github: "https://github.com/PranavPol-01",
-        instagram: "https://www.instagram.com/pranav_pol/",
-        email: "2022.pranav.pol@ves.ac.in",
-      },
-    },
-  ],
-
   faculty: [
     {
       name: "Gresha Bhatia",
@@ -250,11 +232,11 @@ const data = {
       },
     },
   ],
-  devs:[
+  devs: [
     {
       name: "Darshan Khapekar",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/darshan.jpg",
+      path: Darshan,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/darshankhapekar/",
         instagram: "https://www.instagram.com/darshan.1137/",
@@ -265,7 +247,7 @@ const data = {
     {
       name: "Pranav Pol",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Pranav Pol D10A.JPG",
+      path: Pranav,
 
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/pranavpol/",
@@ -277,7 +259,7 @@ const data = {
     {
       name: "Ashutosh Mishra",
       position: "Sr. TAB",
-      path: "src/assets/council_images/SC/jpeg-optimizer_Ashutosh_Mishra_SrTAB.jpg",
+      path: Ashutosh,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/ashutoshm1808/",
         instagram: "https://www.instagram.com/ashutosh.tm/",
@@ -288,7 +270,7 @@ const data = {
     {
       name: "Shravani Rasam",
       position: "SE coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Shravani Rasam D10A.jpg",
+      path: Shravani,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/shravanirasam02/",
         github: "https://github.com/ShravaniR2412/ShravaniR2412",
@@ -299,7 +281,7 @@ const data = {
     {
       name: "Advik Hegde",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/",
+      path: Advik,
 
       socialLinks: {
         linkedin:
@@ -312,7 +294,7 @@ const data = {
     {
       name: "Anshi Tiwari",
       position: "SE Coordinator",
-      path: "src/assets/council_images/SEs/jpeg-optimizer_Anshi Tiwari D10C.JPG",
+      path: Anshi,
 
       socialLinks: {
         github: "https://github.com/anshi1108",
@@ -320,7 +302,7 @@ const data = {
         email: "2022.anshi.tiwari@ves.ac.in",
       },
     },
-  ]
+  ],
 };
 
 export default data;

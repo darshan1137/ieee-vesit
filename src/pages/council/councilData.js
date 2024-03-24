@@ -1,40 +1,39 @@
 //BEs
-import Sheryl from "../../assets/council_images/SC/jpeg-optimizer_ChairPerson_Sheryl.jpg"
-import Aditi from "../../assets/council_images/SC/jpeg-optimizer_Aditi_CEO.jpg"
-import Dhanshree from "../../assets/council_images/SC/jpeg-optimizer_SrEditor_Dhanshree_Pandey.jpg"
-import Ashutosh from "../../assets/council_images/SC/jpeg-optimizer_Ashutosh_Mishra_SrTAB.jpg"
-import Hitesh from "../../assets/council_images/SC/jpeg-optimizer_Hitesh_Kapure_SrTab.jpg"
-import Flashy from "../../assets/council_images/SC/jpeg-optimizer_akash_sr_volunteer.jpg"
-import Parth from "../../assets/council_images/SC/jpeg-optimizer_Parth_Sr.Editor.jpeg"
-import Aditya from "../../assets/council_images/SC/jpeg-optimizer_Aditya_SrWeb.jpeg"
-import Gaonkar from "../../assets/council_images/SC/jpeg-optimizer_Atharv_Gaonkar .jpg"
+import Sheryl from "../../assets/council_images/SC/jpeg-optimizer_ChairPerson_Sheryl.jpg";
+import Aditi from "../../assets/council_images/SC/jpeg-optimizer_Aditi_CEO.jpg";
+import Dhanshree from "../../assets/council_images/SC/jpeg-optimizer_SrEditor_Dhanshree_Pandey.jpg";
+import Ashutosh from "../../assets/council_images/SC/jpeg-optimizer_Ashutosh_Mishra_SrTAB.jpg";
+import Hitesh from "../../assets/council_images/SC/jpeg-optimizer_Hitesh_Kapure_SrTab.jpg";
+import Flashy from "../../assets/council_images/SC/jpeg-optimizer_akash_sr_volunteer.jpg";
+import Parth from "../../assets/council_images/SC/jpeg-optimizer_Parth_Sr.Editor.jpeg";
+import Aditya from "../../assets/council_images/SC/jpeg-optimizer_Aditya_SrWeb.jpeg";
+import Gaonkar from "../../assets/council_images/SC/jpeg-optimizer_Atharv_Gaonkar .jpg";
 
 //SEs
 import Darshan from "../../assets/council_images/SEs/darshan.jpg";
-import Shravani from "../../assets/council_images/SEs/jpeg-optimizer_Shravani Rasam D10A.jpg"
-import Pranav from "../../assets/council_images/SEs/PranavPol.jpg"
-import Advik from "../../assets/council_images/SEs/Advik.jpg"
-import Anshi from "../../assets/council_images/SEs/Anshi.jpg"
-import Shreyash from "../../assets/council_images/SEs/Shreyash.jpg"
-import Shantanu from "../../assets/council_images/SEs/Shantanu.jpg"
+import Shravani from "../../assets/council_images/SEs/jpeg-optimizer_Shravani Rasam D10A.jpg";
+import Pranav from "../../assets/council_images/SEs/PranavPol.jpg";
+import Advik from "../../assets/council_images/SEs/Advik.jpg";
+import Anshi from "../../assets/council_images/SEs/Anshi.jpg";
+import Shreyash from "../../assets/council_images/SEs/Shreyash.jpg";
+import Shantanu from "../../assets/council_images/SEs/Shantanu.jpg";
 
-import Kshitij from "../../assets/council_images/SEs/Kshitij.jpg"
-import Akshat from "../../assets/council_images/SEs/Akshat.jpg"
+import Kshitij from "../../assets/council_images/SEs/Kshitij.jpg";
+import Akshat from "../../assets/council_images/SEs/Akshat.jpg";
 
-import Purvi from "../../assets/council_images/SEs/Purvi.jpg"
-import Sandali from "../../assets/council_images/SEs/Sandali.jpg"
-import Khyati from "../../assets/council_images/SEs/Khayati.jpg"
-import Vaishnavi from "../../assets/council_images/SEs/Vaishnavi.jpg"
-import Ishan from "../../assets/council_images/SEs/Ishan.jpg"
-import Tanay from "../../assets/council_images/SEs/Tanay.jpg"
-import Kale from "../../assets/council_images/SEs/Kale.jpg"
-import Maiths from "../../assets/council_images/SEs/Maithili.jpg"
-import Anjali from "../../assets/council_images/SEs/Anjali.jpg"
-import Reet from "../../assets/council_images/SEs/Reet.jpg"
-import Anushka from "../../assets/council_images/SEs/Anushka.jpg"
-import Avantika from "../../assets/council_images/SEs/Avantika.jpg"
-import Veydant from "../../assets/council_images/SEs/Veydant.jpg"
-
+import Purvi from "../../assets/council_images/SEs/Purvi.jpg";
+import Sandali from "../../assets/council_images/SEs/Sandali.jpg";
+import Khyati from "../../assets/council_images/SEs/Khayati.jpg";
+import Vaishnavi from "../../assets/council_images/SEs/Vaishnavi.jpg";
+import Ishan from "../../assets/council_images/SEs/Ishan.jpg";
+import Tanay from "../../assets/council_images/SEs/Tanay.jpg";
+import Kale from "../../assets/council_images/SEs/Kale.jpg";
+import Maiths from "../../assets/council_images/SEs/Maithili.jpg";
+import Anjali from "../../assets/council_images/SEs/Anjali.jpg";
+import Reet from "../../assets/council_images/SEs/Reet.jpg";
+import Anushka from "../../assets/council_images/SEs/Anushka.jpg";
+import Avantika from "../../assets/council_images/SEs/Avantika.jpg";
+import Veydant from "../../assets/council_images/SEs/Veydant.jpg";
 
 const data = {
   se: [
@@ -64,7 +63,7 @@ const data = {
     {
       name: "Shravani Rasam",
       position: "SE coordinator",
-      path:Shravani,
+      path: Shravani,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/shravanirasam02/",
         github: "https://github.com/ShravaniR2412/ShravaniR2412",
@@ -363,7 +362,7 @@ const data = {
     {
       name: "Dhanshree Pandey",
       position: "Sr. Editor",
-      path: "src/assets/council_images/SC/jpeg-optimizer_SrEditor_Dhanshree_Pandey.jpg",
+      path: Dhanshree,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/dhanshree-pandey-56113724a",
         instagram: "https://www.instagram.com/dhanshree.p4001/",
@@ -374,7 +373,7 @@ const data = {
     {
       name: "Aditya Nehete",
       position: "Sr. Web Editor",
-      path: "src/assets/council_images/SC/jpeg-optimizer_Aditya_SrWeb.jpeg",
+      path: Aditya,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/aditya-nehete-392b0122b/",
         instagram: "https://www.instagram.com/aadi_nehete_15/",
