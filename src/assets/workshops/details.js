@@ -1,3 +1,13 @@
+import AdvExcel from "../../assets/workshops/workshops/advexcel.jpg";
+import ByteSize from "../../assets/workshops/workshops/bytesize.jpeg";
+import DevHub from "../../assets/workshops/workshops/devhubIndia.png";
+import Uiux from "../../assets/workshops/workshops/uiux.png";
+import Jarvis from "../../assets/workshops/workshops/jarvis.png";
+import Tableau from "../../assets/workshops/workshops/tableau.jpg";
+import Uiuxcomp from "../../assets/workshops/workshops/uiuxCamp.png";
+
+
+
 const details=
 [
     {

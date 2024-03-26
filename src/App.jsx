@@ -9,6 +9,7 @@ import Footer from "./components/footer/Footer";
 import Council from "./pages/council/Council";
 import Developers from "./pages/developers/Developers";
 import Description from "./pages/events/Description";
+import Wdescription from "./pages/workshops/Description_workshop";
 
 function App() {
   return (
@@ -67,6 +68,14 @@ function App() {
           element={
             <WithNavbarAndFooter>
               <Description />
+            </WithNavbarAndFooter>
+          }
+        />
+        <Route
+          path="/workshop/:title"
+          element={
+            <WithNavbarAndFooter>
+              <Wdescription />
             </WithNavbarAndFooter>
           }
         />
