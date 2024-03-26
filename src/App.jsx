@@ -8,6 +8,7 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Council from "./pages/council/Council";
 import Developers from "./pages/developers/Developers";
+import Description from "./pages/events/Description";
 
 function App() {
   return (
@@ -58,6 +59,14 @@ function App() {
           element={
             <WithNavbarAndFooter>
               <Magazines />
+            </WithNavbarAndFooter>
+          }
+        />
+        <Route
+          path="/event/:title"
+          element={
+            <WithNavbarAndFooter>
+              <Description />
             </WithNavbarAndFooter>
           }
         />

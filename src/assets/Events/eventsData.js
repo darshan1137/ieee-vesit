@@ -14,7 +14,8 @@ const data = [
     date: "3rd March 2023",
     image_path: Money,
     description:
-      "The series, Money Heist, was recreated: 1 participant on the stage guided the other team members on how to move forward to steal the gold bars from the vaults. Around 134 students participated in this event.",
+      "The series, Money Heist, was recreated: 1 participant on the stage guided the other team members on how to move forward to steal the gold bars from the vaults.",
+    link:"/event/Money_Heist_23",
   },
   {
     title: "VESIT-Tank",
@@ -23,6 +24,7 @@ const data = [
     image_path: Tank,
     description:
       "VESIT-Tank was our version of Shark Tank to tap into the business brain of students.6 teams participated.",
+    link:"/events/VESIT-Tank",
   },
 
   {
@@ -32,6 +34,7 @@ const data = [
     image_path: Sympo,
     description:
       "Melange was the sign-off event of council 2023. The annual magazine INNOVATION and website were released.",
+    link:"/events/Symposium_Melange_23",
   },
 
   {
@@ -41,6 +44,7 @@ const data = [
     image_path: Valo,
     description:
       " A gaming event conducted by IEEE-VESIT and HP laptops for promoting their OMEN gaming laptop series.There were 216 participants.",
+    link:"/events/OMEN_Valorant_Campus_Quest",
   },
 
   {
@@ -50,6 +54,7 @@ const data = [
     image_path: Crimson,
     description:
       "A fun event conducted to test participants' technical, analytical, and general knowledge.17 teams participated.",
+    link:"/events/Crimson_Clues",
   },
   {
     title: "Money Heist ‘24",
@@ -58,14 +63,16 @@ const data = [
     image_path: Praxis,
     description:
       "In this event, a character called “The Professornd“ 3 team members try to steal Gold from the Royal Mint of VESIT and escape successfully.",
+    link:"/events/Money_Heist_24",
   },
   {
-    title: " One Piece",
+    title: "One Piece",
     subtitle: "Praxis 2024",
     date: "5th March 2024",
     image_path: OnePiece,
     description:
       "A fun-tech event conducted to test participants' technical and analytical thinking in a game of ludo.The total number of students participating in One Piece were 48 students.",
+    link:"/events/One_Piece",
   },
   {
     title: "Self-Defence Workshop",
@@ -73,7 +80,8 @@ const data = [
     date: "22nd March 2024",
     image_path: SelfDefence,
     description:
-      "A self-defence workshop conducted especially for women.An engaging workshop Session focused on building Confidence,Learning Vital Techniques and embrassing personal saftey",
+      "An engaging workshop Session focused on building Confidence,Learning Vital Techniques and embrassing personal saftey",
+    link:"/events/Self_Defence_Workshop",
   },
 ];
 

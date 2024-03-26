@@ -1,7 +1,10 @@
-import React, { useState, useEffect } from "react";
-import eventsData from "../../assets/Events/eventsData";
-import "../events/events.css";
-//  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/events.css')}}"></link>
+// Workshops.js
+
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import eventsData from '../../assets/Events/eventsData';
+import '../events/events.css';
+
 const Workshops = () => {
   const [events, setEvents] = useState([]);
 
@@ -10,23 +13,12 @@ const Workshops = () => {
   }, []);
 
   return (
-    // <div>
-    //     <h2>Events</h2>
-    //     {events.map(event => (
-    //         <div key={event.title}>
-    //             <h3>{event.title}</h3>
-    //             <img src={event.image_path} alt={event.title} />
-    //             <p>{event.description}</p>
-    //         </div>
-    //     ))}
-    // </div>
-
     <div class="row">
       <div class="main-container">
         <p class="ieee_title">Events</p>
 
         <div class="container1">
-          {eventsData.map((event) => (
+          {events.map(event => (
             <div key={event.title}>
               <div class="card">
                 <div class="imgBx">
@@ -41,6 +33,7 @@ const Workshops = () => {
                   <div class="color description-txt">
                     <p>{event.description}</p>
                   </div>
+                  <Link to={`/event/${encodeURIComponent(event.title)}`}>Know more</Link>
                 </div>
               </div>
             </div>

@@ -1,3 +1,13 @@
+import Money from "../../assets/Events/events/mh23.jpeg";
+import Tank from "../../assets/Events/events/vesittank.jpeg";
+import Sympo from "../../assets/Events/events/sympo23.jpeg";
+import Valo from "../../assets/Events/events/valorent.jpeg";
+import Crimson from "../../assets/Events/events/crimsonclues.jpeg";
+import Praxis from "../../assets/Events/events/praxis.jpg";
+import OnePiece from "../../assets/Events/events/praxis.jpg";
+import SelfDefence from "../../assets/Events/events/selfdefence.jpeg";
+
+
 const details = [
   {
     title: "Money Heist ‘23",
@@ -85,7 +95,7 @@ const details = [
   },
 
   {
-    title: " One Piece",
+    title: "One Piece",
     subtitle: "Praxis 2024",
     date: "5th March 2024",
     image_path: OnePiece,
