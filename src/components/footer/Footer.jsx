@@ -65,7 +65,7 @@ const Footer = () => {
       <div className="footer-right">
         <p className="footer-company-about">
           <span>About the Council</span>
-          <strong>IEEE-VESIT</strong> is an Internation Technical Society which
+          <strong>IEEE-VESIT</strong> is an International Technical Society which
           stands for Institute of Electrical and Electronics Engineers.
         </p>
         <div className="footer-icons">

@@ -59,7 +59,7 @@ const data=
         "subtitle": "AdvanceExcel Workshop",
         "date": "21st and 22nd February 2024",
         "image_path": AdvExcel,
-        "description": "Basic commands and uses of Excel alomg with hands on  project which was created using advanced commands of Excel to create a dashboard."
+        "description": "Basic commands and uses of Excel along with hands on  project which was created using advanced commands of Excel to create a dashboard."
     }
 ]
 
