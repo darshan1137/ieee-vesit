@@ -31,7 +31,7 @@ const data = [
     date: "13th April 2023",
     image_path: Sympo,
     description:
-      "A fun event conducted to test participants' technical, analytical, and general knowledge.7 teams participated.",
+      "Melange was the sign-off event of council 2023. The annual magazine INNOVATION and website were released.",
   },
 
   {
