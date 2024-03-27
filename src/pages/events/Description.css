@@ -1,0 +1,79 @@
+
+
+.m {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title h2 {
+    font-size: 28px;
+    color: lightblue;
+  }
+  
+  .st {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .st h3 {
+    font-size: 22px;
+    color: #666;
+  }
+  
+  .date {
+    margin-bottom: 20px;
+  }
+  
+  .date p {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .image {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    margin-bottom: 20px;
+  }
+  
+  .desc p {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .partcipants {
+    margin-bottom: 20px;
+  }
+  
+  .partcipants p {
+    font-size: 16px;
+    color: lightblue;
+  }
+  
+  .winners {
+    margin-bottom: 20px;
+  }
+  
+  .winners ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .winners ul li {
+    font-size: 16px;
+    color: #777;
+  }
+  

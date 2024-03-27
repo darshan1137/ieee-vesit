@@ -9,19 +9,19 @@ const data = [
     title: "Innovation 2022-23",
     image: Innovation22_23,
     description: "THE AI REVOLUTION FRIEND OR FOE TO HUMANITY?",
-    downloadLink: "https://drive.google.com/file/d/1tbxkLB5eYhirF1aq4DGq_6mBZQK-Kk8K/view?usp=sharing"
+    downloadLink: "https://drive.google.com/file/d/16aB0c0oS8fxDa5e20DL4KkPF7zBdyKGF/view?usp=drive_link"
   },
   {
     title: "Innovation 2021-22",
     image: Innovation21,
     description: "Super - Intelligence Technology, Empowering People with A.I.",
-    downloadLink: "https://drive.google.com/file/d/16aB0c0oS8fxDa5e20DL4KkPF7zBdyKGF/view?usp=share_link"
+    downloadLink: "https://drive.google.com/file/d/1AI_DJ8yaHLymAY2r2tImWaBDpLtWhiKe/view?usp=drive_link"
   },
   {
     title: "Innovation 2020-21",
     image: Innovation20,
     description: "Space - Exploration & Technology",
-    downloadLink: "https://drive.google.com/file/d/136vHgcruqerWUfv8OtsM7XeDSit9Lai0/view?usp=share_link"
+    downloadLink: "https://drive.google.com/file/d/1LMWqy6c8E_pm-_97gvaqBfCZXirKmcxU/view?usp=drive_link"
   },
   {
     title: "Innovation 2019-20",

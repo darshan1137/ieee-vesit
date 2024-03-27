@@ -13,7 +13,7 @@ import Gaonkar from "../../assets/council_images/SC/jpeg-optimizer_Atharv_Gaonka
 import Darshan from "../../assets/council_images/SEs/darshan.jpg";
 import Shravani from "../../assets/council_images/SEs/jpeg-optimizer_Shravani Rasam D10A.jpg";
 import Pranav from "../../assets/council_images/SEs/PranavPol.jpg";
-import Advik from "../../assets/council_images/SEs/Advik.jpg";
+import Advik from "../../assets/council_images/SEs/advik.jpg";
 import Anshi from "../../assets/council_images/SEs/Anshi.jpg";
 import Shreyash from "../../assets/council_images/SEs/Shreyash.jpg";
 import Shantanu from "../../assets/council_images/SEs/Shantanu.jpg";
@@ -56,7 +56,7 @@ const data = {
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/pranavpol/",
         github: "https://github.com/PranavPol-01",
-        instagram: "https://www.instagram.com/pranav_pol/",
+        instagram: "https://www.instagram.com/_pranav_pol_/",
         email: "2022.pranav.pol@ves.ac.in",
       },
     },

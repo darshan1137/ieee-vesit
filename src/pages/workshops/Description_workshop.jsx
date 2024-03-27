@@ -13,14 +13,26 @@ const Description_workshop = () => {
 
   return (
     <div>
-      <h2>{event.title}</h2>
-      <h3>{event.subtitle}</h3>
-      <p>Date: {event.date}</p>
-      <img src={event.image_path} alt={event.title} />
-      <p>Description: {event.description}</p>
-      <p>Participants: {event.Participants}</p>
-      
+    <div className="m">
+    <div className="title">
+    <h2>{event.title}</h2>
+    {/* </div>
+    <div className="st"> */}
+    <h3>{event.subtitle}</h3>
+    {/* </div>
+    <div className="date"> */}
+    <p>Date: {event.date}</p>
     </div>
+    <div className="image">
+    <img src={event.image_path} alt={event.title} />
+    </div><div className="desc">
+    <p>Description: {event.description}</p>
+    </div><div className="partcipants">
+    <p>Participants: {event.Participants}</p>
+    
+    </div>
+  </div>
+  </div>
   );
 };
 
