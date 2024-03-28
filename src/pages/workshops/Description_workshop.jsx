@@ -10,6 +10,7 @@ const Description_workshop = () => {
   console.log(event)
 
   if (!event) return <div>Event not found</div>;
+  
 
   return (
     <div>
@@ -30,6 +31,10 @@ const Description_workshop = () => {
     </div><div className="partcipants">
     <p>Participants: {event.Participants}</p>
     
+    </div>
+    <div className="drive">
+      
+    <a href={event.link} target="_blank" rel="noreferrer">certificates</a>{console.log(event.link)}
     </div>
   </div>
   </div>

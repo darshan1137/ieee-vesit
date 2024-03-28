@@ -17,6 +17,7 @@ const Workshops = () => {
                 <div class="container1">
                     {events.map(event => (
                         <div key={event.title}>
+                            <Link to={`/workshop/${encodeURIComponent(event.title)}`}>
                             <div class="card">
                                 <div class="imgBx">
                                     <img src={event.image_path} alt={event.title} />
@@ -30,9 +31,13 @@ const Workshops = () => {
                                     <div class="color description-txt">
                                         <p>{event.description}</p>
                                     </div>
-                                    <Link to={`/workshop/${encodeURIComponent(event.title)}`}>Know more</Link>
+                                    <div className="div">
+                                        {event.link}
+                                    </div>
+                                    
                                 </div>
                             </div>
+                            </Link>
                         </div>
                     ))}
                 </div>

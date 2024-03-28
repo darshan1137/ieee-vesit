@@ -13,7 +13,8 @@ const EventDetails = () => {
 
   return (
     <div>
-      <div className="m">
+      <div className="m
+      ">
       <div className="title">
       <h2>{event.title}</h2>
       {/* </div>
