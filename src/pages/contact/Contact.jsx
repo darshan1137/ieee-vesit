@@ -25,9 +25,30 @@ function Contact() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+  
+    // Basic form validation
+    if (!name || !year || !branch || !contactNo || !email || !message) {
+      alert('Please fill in all fields');
+      return;
+    }
+  
+    // Phone number validation
+    const phoneRegex = /^\d{10}$/;
+    if (!phoneRegex.test(contactNo)) {
+      alert('Please enter a valid 10-digit phone number');
+      return;
+    }
+  
+    // Email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      alert('Please enter a valid email address');
+      return;
+    }
+  
     try {
       const contactsCollectionRef = collection(db, "contacts");
-
+  
       // Add a new document to the "contacts" collection
       const docRef = await addDoc(contactsCollectionRef, {
         name,
@@ -37,8 +58,9 @@ function Contact() {
         email,
         message,
       });
-
-      console.log("Document written with ID: ", docRef.id);
+  
+      // console.log("Document written with ID: ", docRef.id);
+      alert('Form Submitted succesfully!');
       // Reset form fields after submission
       setName("");
       setYear("");
@@ -50,7 +72,7 @@ function Contact() {
       console.error("Error adding document: ", error);
     }
   };
-
+  
   return (
     <>
       <div className="contact_body" style={{ marginTop: "30px" }}>
@@ -177,102 +199,111 @@ function Contact() {
         <p className="ieee_title">EMAIL US</p>
       </center>
       <div className="contact-form">
-        <div className="contact-in">
-          <div className="contact-map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15085.675987384604!2d72.88022558518108!3d19.045306994697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8add9569a29%3A0xb7ad04bf9a389df7!2sVivekanand%20Education%20Society&#39;s%20Institute%20Of%20Technology%20(VESIT)!5e0!3m2!1sen!2sin!4v1672162695749!5m2!1sen!2sin"
-              width="100%"
-              height="auto"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-          <div className="contact-form">
-            <h1>Send Message</h1>
-            <form onSubmit={handleSubmit}>
-              <input
-                type="text"
-                placeholder="Name"
-                className="contact-form-txt"
-                name="name"
-                id="name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              />
-              <div className="contact-form-dropdown">
-                <select
-                  name="year"
-                  id="year"
-                  className="contact-form-txt"
-                  value={year}
-                  onChange={(e) => setYear(e.target.value)}
-                >
-                  <option value="" name="year" selected>
-                    Year
-                  </option>
-                  <option value="BE">BE</option>
-                  <option value="TE">TE</option>
-                  <option value="SE">SE</option>
-                  <option value="FE">FE</option>
-                </select>
-                <select
-                  name="branch"
-                  id="branch"
-                  className="contact-form-txt"
-                  value={branch}
-                  onChange={(e) => setBranch(e.target.value)}
-                >
-                  <option value="">Branch</option>
-                  <option value="" selected>
-                    Branch
-                  </option>
-                  <option value="CMPN">CMPN</option>
-                  <option value="INFT">INFT</option>
-                  <option value="AIDS">AIDS</option>
-                  <option value="ETRX">ETRX</option>
-                  <option value="EXTC">EXTC</option>
-                  <option value="INST">INST</option>
-                </select>
-              </div>
-              <input
-                type="text"
-                placeholder="Contact No."
-                className="contact-form-txt"
-                name="contact"
-                id="contact"
-                value={contactNo}
-                onChange={(e) => setContactNo(e.target.value)}
-              />
-              <input
-                type="email"
-                placeholder="Email"
-                className="contact-form-txt"
-                name="email"
-                id="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-              <textarea
-                placeholder="Message"
-                className="contact-form-textarea"
-                style={{ resize: "none" }}
-                name="message"
-                id="message"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-              ></textarea>
-              <input
-                type="submit"
-                value="Submit"
-                className="contact-form-btn"
-                onClick={handleSubmit}
-              />
-            </form>
-          </div>
+  <div className="contact-in">
+    <div className="contact-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15085.675987384604!2d72.88022558518108!3d19.045306994697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8add9569a29%3A0xb7ad04bf9a389df7!2sVivekanand%20Education%20Society&#39;s%20Institute%20Of%20Technology%20(VESIT)!5e0!3m2!1sen!2sin!4v1672162695749!5m2!1sen!2sin"
+        width="100%"
+        height="auto"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <div className="contact-form">
+      <h1>Send Message</h1>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          placeholder="Name"
+          className="contact-form-txt"
+          name="name"
+          id="name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          required  // Marking the field as required
+        />
+        <div className="contact-form-dropdown">
+          <select
+            name="year"
+            id="year"
+            className="contact-form-txt"
+            value={year}
+            onChange={(e) => setYear(e.target.value)}
+            required  // Marking the field as required
+          >
+            <option value="" disabled selected>
+              Year
+            </option>
+            <option value="BE">BE</option>
+            <option value="TE">TE</option>
+            <option value="SE">SE</option>
+            <option value="FE">FE</option>
+          </select>
+          <select
+            name="branch"
+            id="branch"
+            className="contact-form-txt"
+            value={branch}
+            onChange={(e) => setBranch(e.target.value)}
+            required  // Marking the field as required
+          >
+            <option value="" disabled selected>
+              Branch
+            </option>
+            <option value="CMPN">CMPN</option>
+            <option value="INFT">INFT</option>
+            <option value="AIDS">AIDS</option>
+            <option value="ETRX">ETRX</option>
+            <option value="EXTC">EXTC</option>
+            <option value="INST">INST</option>
+          </select>
         </div>
-      </div>
+        <input
+          type="text"
+          placeholder="Contact No."
+          className="contact-form-txt"
+          name="contact"
+          id="contact"
+          value={contactNo}
+          onChange={(e) => setContactNo(e.target.value)}
+          required  // Marking the field as required
+        />
+        <input
+          type="email"
+          placeholder="Email"
+          className="contact-form-txt"
+          name="email"
+          id="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required  // Marking the field as required
+        />
+        <textarea
+          placeholder="Message"
+          className="contact-form-textarea"
+          style={{ resize: "none" }}
+          name="message"
+          id="message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          required  // Marking the field as required
+        ></textarea>
+        <input
+          type="submit"
+          value="Submit"
+          className="contact-form-btn"
+          onClick={handleSubmit}
+        />
+      </form>
+      <p style={{ textAlign: "center", marginTop: "10px" }}>
+        <em>All fields are mandatory</em>
+      </p>
+    </div>
+  </div>
+</div>
+
     </>
   );
 }

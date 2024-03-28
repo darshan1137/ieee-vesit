@@ -21,7 +21,7 @@ import Darshan from "../../assets/council_images/SEs/darshan.jpg";
 import Pranav from "../../assets/council_images/SEs/Pranav.jpg";
 import Ashutosh from "../../assets/council_images/SC/jpeg-optimizer_Ashutosh_Mishra_SrTAB.jpg";
 import Shravani from "../../assets/council_images/SEs/jpeg-optimizer_Shravani Rasam D10A.jpg";
-import Advik from "../../assets/council_images/SEs/advik.jpg";
+import Advik from "../../assets/council_images/SEs/Advik.jpg";
 import Anshi from "../../assets/council_images/SEs/Anshi.jpg";
 
 const data = {
