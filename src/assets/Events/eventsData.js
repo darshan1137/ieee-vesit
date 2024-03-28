@@ -71,7 +71,7 @@ const data = [
     date: "5th March 2024",
     image_path: OnePiece,
     description:
-      "A fun-tech event conducted to test participants' technical and analytical thinking in a game of ludo.The total number of students participating in One Piece were 48 students.",
+      "A fun-tech event conducted to test participants' technical and analytical thinking in a game of ludo.",
     link:"/events/One_Piece",
   },
   {
