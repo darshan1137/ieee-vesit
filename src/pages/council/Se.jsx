@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+/*import React, { useState } from "react";
 import "./Council.css";
 import teamData from "./councilData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -89,4 +89,4 @@ function Se() {
   );
 }
 
-export default Se;
+export default Se;*/
