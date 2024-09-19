@@ -37,7 +37,7 @@ import Avantika from "../../assets/council_images/SEs/Avantika.jpg";
 import Veydant from "../../assets/council_images/SEs/Veydant.jpg";
 
 const data = {
-  Te: [
+  te: [
     {
       name: "Aditi Dubey",
       position: "SE Coordinator",

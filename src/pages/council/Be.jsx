@@ -11,7 +11,7 @@ import {
   faInstagram,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import teamData from "./councilData";
+import teamData from "./CD";
 
 function Be() {
   const [activeIndices, setActiveIndices] = useState([]);

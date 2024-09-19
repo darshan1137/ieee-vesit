@@ -42,7 +42,7 @@ const data = {
       email: "ashwini.sawant@ves.ac.in",
     },
   ],
-  Be: [
+  be: [
     {
       name: "Gaurang Rane",
       position: "Chairperson",
