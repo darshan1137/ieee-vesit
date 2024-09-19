@@ -10,17 +10,17 @@ import Aditya from "../../assets/council_images/SC/jpeg-optimizer_Aditya_SrWeb.j
 import Gaonkar from "../../assets/council_images/SC/jpeg-optimizer_Atharv_Gaonkar .jpg";
 
 //TEs
-import Aditi_dubey from "../../assets/council_images/SEs/Aditi_dubey.HEIC";
-import Akshit from "../../assets/council_images/SEs/Akshit.HEIC";
-import Arnav from "../../assets/council_images/SEs/Arnav.HEIC";
-import Ayush from "../../assets/council_images/SEs/Ayush.HEIC";
+import Aditi_dubey from "../../assets/council_images/SEs/Aditi_dubey.jpg";
+import Akshit from "../../assets/council_images/SEs/Akshit.jpg";
+import Arnav from "../../assets/council_images/SEs/Arnav.jpg";
+import Ayush from "../../assets/council_images/SEs/Ayush.jpg";
 import Anshi from "../../assets/council_images/SEs/Anshi.jpg";
-import Piyush from "../../assets/council_images/SEs/Piyush.HEIC";
+import Piyush from "../../assets/council_images/SEs/Piyush.jpg";
 import Shantanu from "../../assets/council_images/SEs/Shantanu.jpg";
 
 
 import Kshitij from "../../assets/council_images/SEs/Kshitij.jpg";
-import Pratham from "../../assets/council_images/SEs/Pratham_Matkar.HEIC";
+import Pratham from "../../assets/council_images/SEs/Pratham_Matkar.jpg";
 
 import Purvi from "../../assets/council_images/SEs/Purvi.jpg";
 import Sandali from "../../assets/council_images/SEs/Sandali.jpg";

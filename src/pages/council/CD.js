@@ -3,7 +3,7 @@ import Ashwini from "../../assets/council_images/faculty/AshwiniSawant.jpeg";
 import Anoushka from "../../assets/council_images/JC/Anoushka_Menon_secretary.jpg";
 import Gaurang from "../../assets/council_images/JC/GAURANG RANE.jpeg";
 import Kaushik from "../../assets/council_images/JC/Kaushik_mpeo.jpg";
-import Nihit from "../../assets/council_images/JC/NIHIT_HOTTIE.jpg";
+import Nihit from "../../assets/council_images/JC/NIHIT HOTTIE.jpg";
 import Aditri from "../../assets/council_images/JC/Aditri-jr_web_editor.jpeg";
 import Sneha from "../../assets/council_images/JC/sneha_jr_web_editor.jpg";
 import Vinay from "../../assets/council_images/JC/vinay_israni_volunteer.jpg";
