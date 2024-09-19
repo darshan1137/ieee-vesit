@@ -3,7 +3,7 @@ import Ashwini from "../../assets/council_images/faculty/AshwiniSawant.jpeg";
 import Anoushka from "../../assets/council_images/JC/Anoushka_Menon_secretary.jpg";
 import Gaurang from "../../assets/council_images/JC/GAURANG RANE.jpeg";
 import Kaushik from "../../assets/council_images/JC/Kaushik_mpeo.jpg";
-import Shraavani from "../../assets/council_images/JC/Shraavani_mpeo.jpg";
+import Nihit from "../../assets/council_images/JC/NIHIT_HOTTIE.jpg";
 import Aditri from "../../assets/council_images/JC/Aditri-jr_web_editor.jpeg";
 import Sneha from "../../assets/council_images/JC/sneha_jr_web_editor.jpg";
 import Vinay from "../../assets/council_images/JC/vinay_israni_volunteer.jpg";
@@ -24,6 +24,7 @@ import Shravani from "../../assets/council_images/SEs/jpeg-optimizer_Shravani Ra
 import Advik from "../../assets/council_images/SEs/Advik.jpg";
 import Anshi from "../../assets/council_images/SEs/Anshi.jpg";
 
+
 const data = {
   faculty: [
     {
@@ -41,21 +42,10 @@ const data = {
       email: "ashwini.sawant@ves.ac.in",
     },
   ],
-  Te: [
-    {
-      name: "Anoushka Menon",
-      position: "Secretary",
-      path: Anoushka,
-      socialLinks: {
-        linkedin: "http://www.linkedin.com/in/anoushka--menon",
-        instagram: "https://www.instagram.com/anoushka_menon/",
-        github: "",
-        email: "2021.anoushka.menon@ves.ac.in",
-      },
-    },
+  Be: [
     {
       name: "Gaurang Rane",
-      position: "MEO",
+      position: "Chairperson",
       path: Gaurang,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/gaurang-rane-a45335245",
@@ -65,8 +55,20 @@ const data = {
       },
     },
     {
+      name: "Anoushka Menon",
+      position: "Chief Executive Officer",
+      path: Anoushka,
+      socialLinks: {
+        linkedin: "http://www.linkedin.com/in/anoushka--menon",
+        instagram: "https://www.instagram.com/anoushka_menon/",
+        github: "",
+        email: "2021.anoushka.menon@ves.ac.in",
+      },
+    },
+    
+    {
       name: "Kaushik Puli",
-      position: "MPEO",
+      position: "Senior Public Relations Head",
       path: Kaushik,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/kaushik-puli-451943260",
@@ -75,20 +77,10 @@ const data = {
         email: "2021.kaushik.puli@ves.ac.in",
       },
     },
-    {
-      name: "Shraavani Tople",
-      position: "MPEO",
-      path: Shraavani,
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/shraavani-tople",
-        instagram: "https://www.instagram.com/shraavani___/",
-        github: "https://github.com/ShraavaniTople",
-        email: "2021.shraavani.tople@ves.ac.in",
-      },
-    },
+    
     {
       name: "Aditri Vishwas",
-      position: "Jr. Web Editor",
+      position: "Women In Engineering",
       path: Aditri,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/aditri-vishwas-382780280",
@@ -100,7 +92,7 @@ const data = {
 
     {
       name: "Sneha Sumbe",
-      position: "Jr. Web Editior ",
+      position: "Sr. Web Editior ",
       path: Sneha,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/sneha-sumbe-642b45260",
@@ -109,20 +101,10 @@ const data = {
         email: "2021.sneha.sumbe@ves.ac.in",
       },
     },
-    {
-      name: "Vinay Israni ",
-      position: "Volunteers",
-      path: Vinay,
-      socialLinks: {
-        linkedin: "Vinay Israni ",
-        instagram: "https://www.instagram.com/vinay.israni_14/",
-        github: "Vinay Israni ",
-        email: "2021.vinay.israni@ves.ac.in",
-      },
-    },
+    
     {
       name: "Prasad Gourshettiwar ",
-      position: "Jr.TAB",
+      position: "Sr.Treasurer",
       path: Prasad,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/prasad-gourshettiwar-4aa716227",
@@ -132,31 +114,10 @@ const data = {
       },
     },
 
-    {
-      name: "Atharva Baheti",
-      position: "Volunteer ",
-      path: Baheti,
-      socialLinks: {
-        linkedin: "",
-        instagram: "https://www.instagram.com/atharva_baheti/",
-        github: "",
-        email: "2021.atharva.baheti@ves.ac.in",
-      },
-    },
-    {
-      name: "Shamaila Ansari",
-      position: "Volunteer",
-      path: Shamaila,
-      socialLinks: {
-        linkedin: "http://www.linkedin.com/in/shamaila-ansari-285809268",
-        instagram: "https://www.instagram.com/_shamaila_a/",
-        github: "https://github.com/Ansari-Shamaila",
-        email: "2021.shamaila.ansari@ves.ac.in",
-      },
-    },
+   
     {
       name: "Kirti Eppanapelli",
-      position: "Jr. Editor",
+      position: "Sr. Editor",
       path: Kirti,
       socialLinks: {
         linkedin: "",
@@ -165,31 +126,11 @@ const data = {
         email: "d2021.kirti.eppanapelli@ves.ac.in",
       },
     },
-    {
-      name: "Akash Fatnani",
-      position: "Jr. Treasurer",
-      path: Fatnani,
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/akash-fatnani-5805a8237/",
-        instagram: "https://www.instagram.com/the_akash_fatnani/",
-        github: "https://github.com/Akash150822",
-        email: "2021.akash.fatnani@ves.ac.in",
-      },
-    },
-    {
-      name: "Unnati Ayalwar ",
-      position: "Women in Engineering ",
-      path: Unnati,
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/unnati-ayalwar",
-        instagram: "https://www.instagram.com/unnati_pravin/",
-        github: "",
-        email: "2021.unnati.ayalwar@ves.ac.in",
-      },
-    },
+    
+    
     {
       name: "Rishika Chaubal",
-      position: "GEO",
+      position: "Sr. Graphics Head",
       path: Rishika,
       socialLinks: {
         linkedin: "",
@@ -199,40 +140,30 @@ const data = {
       },
     },
     {
-      name: "Yash Uskelwar",
-      position: "Jr. TAB",
-      path: Yash,
+      name: "Ashish Nair",
+      position: "Sr. Technical Head",
+      path: Ashish,
       socialLinks: {
         linkedin: "",
         instagram: "https://www.instagram.com/superyashblogs/",
         github: "https://github.com/uskYash",
-        email: "2021.yash.uskelwar@ves.ac.in",
+        email: "2021.ashish.nair@ves.ac.in",
       },
     },
     {
-      name: "Vrushabh Karavde",
-      position: "GEO",
-      path: Vrishi,
+      name: "Nihit Mistry",
+      position: "Sr. Technical Head",
+      path: Nihit,
       socialLinks: {
         linkedin: "",
         instagram: "https://www.instagram.com/bas_vrishi/",
         github: "",
-        email: "2021.vrushabh.karavde@ves.ac.in",
+        email: "2021.nihit.mistry@ves.ac.in",
       },
     },
-    {
-      name: "Tejas Chorge",
-      position: "Jr. Editor",
-      path: Tejas,
-      socialLinks: {
-        linkedin: "",
-        instagram: "https://www.instagram.com/_tejas_08_/",
-        github: "",
-        email: "d2021.tejas.chorge@ves.ac.in",
-      },
-    },
+    
   ],
-  devs: [
+  /*devs: [
     {
       name: "Darshan Khapekar",
       position: "SE Coordinator",
@@ -302,7 +233,7 @@ const data = {
         email: "2022.anshi.tiwari@ves.ac.in",
       },
     },
-  ],
+  ],*/
 };
 
 export default data;
