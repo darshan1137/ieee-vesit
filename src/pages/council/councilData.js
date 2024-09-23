@@ -10,17 +10,17 @@ import Aditya from "../../assets/council_images/SC/jpeg-optimizer_Aditya_SrWeb.j
 import Gaonkar from "../../assets/council_images/SC/jpeg-optimizer_Atharv_Gaonkar .jpg";
 
 //TEs
-import Aditi_Dubey from "../../assets/council_images/SEs/Aditi_Dubey.jpg";
-import Akshit from "../../assets/council_images/SEs/Akshit.jpg";
-import Arnav from "../../assets/council_images/SEs/Arnav.jpg";
-import Ayush from "../../assets/council_images/SEs/Ayush.jpg";
+import Aditi_Dubey from "../../assets/council_images/SEs/Aditi_Dubey.jpeg";
+import Akshit from "../../assets/council_images/SEs/Akshit.jpeg";
+import Arnav from "../../assets/council_images/SEs/Arnav.jpeg";
+import Ayush from "../../assets/council_images/SEs/Ayush.jpeg";
 import Anshi from "../../assets/council_images/SEs/Anshi.jpg";
 import Piyush from "../../assets/council_images/SEs/Piyush.jpg";
 import Shantanu from "../../assets/council_images/SEs/Shantanu.jpg";
 
 
 import Kshitij from "../../assets/council_images/SEs/Kshitij.jpg";
-import Pratham from "../../assets/council_images/SEs/Pratham_Matkar.jpg";
+import Pratham from "../../assets/council_images/SEs/Pratham_Matkar.jpeg";
 
 import Purvi from "../../assets/council_images/SEs/Purvi.jpg";
 import Sandali from "../../assets/council_images/SEs/Sandali.jpg";
@@ -45,7 +45,7 @@ const data = {
       path: Aditi_Dubey,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/darshankhapekar/",
-        instagram: "https://www.instagram.com/darshan.1137/",
+        instagram: "https://www.instagram.com/Aditi_Dubey/",
         github: "https://github.com/darshan1137",
         email: "2022.aditi.dubey@ves.ac.in",
       },
@@ -58,7 +58,7 @@ const data = {
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/pranavpol/",
         github: "https://github.com/PranavPol-01",
-        instagram: "https://www.instagram.com/_pranav_pol_/",
+        instagram: "https://www.instagram.com/rakshit4275/",
         email: "2022.rakshit.sharma@ves.ac.in",
       },
     },
@@ -70,7 +70,7 @@ const data = {
         linkedin: "https://www.linkedin.com/in/shravanirasam02/",
         github: "https://github.com/ShravaniR2412/ShravaniR2412",
         email: "2022.arnav.savant@ves.ac.in",
-        instagram: "https://www.instagram.com/shravaniiii_ra02/",
+        instagram: "https://www.instagram.com/arnavdrafts/",
       },
     },
     {
@@ -82,7 +82,7 @@ const data = {
         linkedin:
           "https://www.linkedin.com/in/advik-hegde-493018295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         github: "https://github.com/AdvikHegde",
-        instagram: "https://www.instagram.com/advik_hegde_/",
+        instagram: "https://www.instagram.com/piyush.pandey_01/",
         email: "2022.piyush.pandey@ves.ac.in",
       },
     },
@@ -104,7 +104,7 @@ const data = {
 
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/shreyash-das-b1260225a/",
-        instagram: "https://www.instagram.com/shreyashdas74/",
+        instagram: "https://www.instagram.com/pratham_2506_/",
         email: "d2022.pratham.matkar@ves.ac.in",
       },
     },
@@ -136,7 +136,7 @@ const data = {
       path: Akshit,
 
       socialLinks: {
-        instagram: "https://www.instagram.com/kshitij_1612/",
+        instagram: "https://www.instagram.com/ctnt112/",
         email: "2022.akshit.ramrane@ves.ac.in",
       },
     },
@@ -148,7 +148,7 @@ const data = {
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/avantika31963293/",
         github: "https://github.com/avantika421",
-        instagram: "https://www.instagram.com/avantika_.26/",
+        instagram: "https://www.instagram.com/xaqer10/",
         email: "2022.ayush.patil@ves.ac.in",
       },
     },

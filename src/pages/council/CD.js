@@ -3,7 +3,7 @@ import Ashwini from "../../assets/council_images/faculty/AshwiniSawant.jpeg";
 import Anoushka from "../../assets/council_images/JC/Anoushka_Menon_secretary.jpg";
 import Gaurang from "../../assets/council_images/JC/GAURANG RANE.jpeg";
 import Kaushik from "../../assets/council_images/JC/Kaushik_mpeo.jpg";
-import Nihit from "../../assets/council_images/JC/NIHIT HOTTIE.jpg";
+import Nihit from "../../assets/council_images/JC/Nihit.jpeg";
 import Aditri from "../../assets/council_images/JC/Aditri-jr_web_editor.jpeg";
 import Sneha from "../../assets/council_images/JC/sneha_jr_web_editor.jpg";
 import Ashish from "../../assets/council_images/JC/Ashish.jpeg";
@@ -68,7 +68,7 @@ const data = {
     
     {
       name: "Kaushik Puli",
-      position: "Senior Public Relations Head",
+      position: "Sr. PR Head",
       path: Kaushik,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/kaushik-puli-451943260",
@@ -145,7 +145,7 @@ const data = {
       path: Ashish,
       socialLinks: {
         linkedin: "",
-        instagram: "https://www.instagram.com/superyashblogs/",
+        instagram: "https://www.instagram.com/ashish__nair/",
         github: "https://github.com/uskYash",
         email: "2021.ashish.nair@ves.ac.in",
       },
@@ -156,7 +156,7 @@ const data = {
       path: Nihit,
       socialLinks: {
         linkedin: "",
-        instagram: "https://www.instagram.com/bas_vrishi/",
+        instagram: "https://www.instagram.com/nihit_i_i_i/",
         github: "",
         email: "2021.nihit.mistry@ves.ac.in",
       },
