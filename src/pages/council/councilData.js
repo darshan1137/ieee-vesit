@@ -32,9 +32,10 @@ import Kale from "../../assets/council_images/SEs/Kale.jpg";
 import Maiths from "../../assets/council_images/SEs/Maithili.jpg";
 import Anjali from "../../assets/council_images/SEs/Anjali.jpg";
 import Reet from "../../assets/council_images/SEs/Reet.jpg";
-import Rakshit from "../../assets/council_images/SEs/Anushka.jpg";
+import Rakshit from "C:\Users\thakr\OneDrive\Desktop\random\ieee-vesit\src\assets\council_images\SEs\Rakshit.jpeg";
 import Avantika from "../../assets/council_images/SEs/Avantika.jpg";
 import Veydant from "../../assets/council_images/SEs/Veydant.jpg";
+
 
 const data = {
   te: [

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Council.css";
-import juniorCouncilData from "./CD";
+import juniorCouncilData from "./councilData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
