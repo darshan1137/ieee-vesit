@@ -15,7 +15,7 @@ import Akshit from "../../assets/council_images/SEs/Akshit.jpeg";
 import Arnav from "../../assets/council_images/SEs/Arnav.jpeg";
 import Ayush from "../../assets/council_images/SEs/Ayush.jpeg";
 import Anshi from "../../assets/council_images/SEs/Anshi.jpg";
-import Piyush from "../../assets/council_images/SEs/Piyush.jpg";
+import Piyush from "../../assets/council_images/SEs/Piyush.jpeg";
 import Shantanu from "../../assets/council_images/SEs/Shantanu.jpg";
 
 
