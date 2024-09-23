@@ -40,8 +40,91 @@ import Veydant from "../../assets/council_images/SEs/Veydant.jpg";
 const data = {
   te: [
     {
+      name: "Veydant Sharma",
+      position: "Secretary",
+      path: Veydant,
+
+      socialLinks: {
+        linkedin: "http://www.linkedin.com/in/veydant-sharma-122339243",
+        github: "https://github.com/veydant",
+        instagram: "https://www.instagram.com//veydant10/",
+        email: "2022.veydant.sharma@ves.ac.in",
+      },
+    },
+    {
+      name: "Ishan Joshi",
+      position: "Managing Executive Officer ",
+      path: Ishan,
+
+      socialLinks: {
+        linkedin: "",
+        github: "https://github.com/Ishan2611",
+        instagram: "https://www.instagram.com/_ishanjoshi_26/",
+        email: "2022.ishan.joshi@ves.ac.in ",
+      },
+    },
+    {
+      name: "Anshi Tiwari",
+      position: "Jr.PR Head",
+      path: Anshi,
+
+      socialLinks: {
+        github: "https://github.com/anshi1108",
+        instagram: "https://www.instagram.com/blevjun/",
+        email: "2022.anshi.tiwari@ves.ac.in",
+      },
+    },
+    
+    
+    
+    {
+      name: "Ayush Patil",
+      position: "Jr.PR Head",
+      path: Ayush,
+
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/avantika31963293/",
+        github: "https://github.com/avantika421",
+        instagram: "https://www.instagram.com/xaqer10/",
+        email: "2022.ayush.patil@ves.ac.in",
+      },
+    },
+    {
+      name: "Kshitij Patki",
+      position: "Jr.Treasurer",
+      path: Kshitij,
+
+      socialLinks: {
+        instagram: "https://www.instagram.com/kshitij_1612/",
+        email: "2022.kshitij.patki@ves.ac.in",
+      },
+    },
+    {
+      name: "Anjali Thakrani",
+      position: "Jr. Web Editor",
+      path: Anjali,
+
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/anjali-thakrani-b33aa4265/",
+        github: "https://github.com/anjalithakrani",
+        instagram: "https://www.instagram.com/anjali.thakrani7/",
+        email: "2022.anjali.thakrani@ves.ac.in",
+      },
+    },
+    {
+      name: "Pratham Matkar",
+      position: "Jr.Web Editor",
+      path: Pratham,
+
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/shreyash-das-b1260225a/",
+        instagram: "https://www.instagram.com/pratham_2506_/",
+        email: "d2022.pratham.matkar@ves.ac.in",
+      },
+    },
+    {
       name: "Aditi Dubey",
-      position: "SE Coordinator",
+      position: "Jr.Web Editor",
       path: Aditi_Dubey,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/darshankhapekar/",
@@ -60,6 +143,18 @@ const data = {
         github: "https://github.com/PranavPol-01",
         instagram: "https://www.instagram.com/rakshit4275/",
         email: "2022.rakshit.sharma@ves.ac.in",
+      },
+    },
+    {
+      name: "Shantanu Bhosale",
+      position: "Jr.Technical Head",
+      path: Shantanu,
+
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/shantanu-bhosale-b37839220/",
+        github: "https://github.com/JANGJONWOO",
+        instagram: "https://www.instagram.com/srbhosale26/",
+        email: "2022.shantanu.bhosale@ves.ac.in",
       },
     },
     {
@@ -86,50 +181,7 @@ const data = {
         email: "2022.piyush.pandey@ves.ac.in",
       },
     },
-    {
-      name: "Anshi Tiwari",
-      position: "Jr.PR Head",
-      path: Anshi,
-
-      socialLinks: {
-        github: "https://github.com/anshi1108",
-        instagram: "https://www.instagram.com/blevjun/",
-        email: "2022.anshi.tiwari@ves.ac.in",
-      },
-    },
-    {
-      name: "Pratham Matkar",
-      position: "Jr.Web Editor",
-      path: Pratham,
-
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/shreyash-das-b1260225a/",
-        instagram: "https://www.instagram.com/pratham_2506_/",
-        email: "d2022.pratham.matkar@ves.ac.in",
-      },
-    },
-    {
-      name: "Shantanu Bhosale",
-      position: "Jr.Technical Head",
-      path: Shantanu,
-
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/shantanu-bhosale-b37839220/",
-        github: "https://github.com/JANGJONWOO",
-        instagram: "https://www.instagram.com/srbhosale26/",
-        email: "2022.shantanu.bhosale@ves.ac.in",
-      },
-    },
-    {
-      name: "Kshitij Patki",
-      position: "Jr.Treasurer",
-      path: Kshitij,
-
-      socialLinks: {
-        instagram: "https://www.instagram.com/kshitij_1612/",
-        email: "2022.kshitij.patki@ves.ac.in",
-      },
-    },
+    
     {
       name: "Akshit Ramrane",
       position: "Jr.Graphics Head",
@@ -138,42 +190,6 @@ const data = {
       socialLinks: {
         instagram: "https://www.instagram.com/ctnt112/",
         email: "2022.akshit.ramrane@ves.ac.in",
-      },
-    },
-    {
-      name: "Ayush Patil",
-      position: "Jr.PR Head",
-      path: Ayush,
-
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/avantika31963293/",
-        github: "https://github.com/avantika421",
-        instagram: "https://www.instagram.com/xaqer10/",
-        email: "2022.ayush.patil@ves.ac.in",
-      },
-    },
-    {
-      name: "Ishan Joshi",
-      position: "Managing Executive Officer",
-      path: Ishan,
-
-      socialLinks: {
-        linkedin: "",
-        github: "https://github.com/Ishan2611",
-        instagram: "https://www.instagram.com/_ishanjoshi_26/",
-        email: "2022.ishan.joshi@ves.ac.in ",
-      },
-    },
-    {
-      name: "Tanay Baisware",
-      position: "Jr.Editor",
-      path: Tanay,
-
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/tanay-baisware-21ab5b24b/",
-        github: "https://github.com/TANAY779",
-        instagram: "https://www.instagram.com/tanay_baisware/",
-        email: "2022.tanay.baisware@ves.ac.in",
       },
     },
     {
@@ -189,15 +205,15 @@ const data = {
       },
     },
     {
-      name: "Anjali Thakrani",
-      position: "Jr. Web Editor",
-      path: Anjali,
+      name: "Tanay Baisware",
+      position: "Jr.Editor",
+      path: Tanay,
 
       socialLinks: {
-        linkedin: "https://www.linkedin.com/in/anjali-thakrani-b33aa4265/",
-        github: "https://github.com/anjalithakrani",
-        instagram: "https://www.instagram.com/anjali.thakrani7/",
-        email: "2022.anjali.thakrani@ves.ac.in",
+        linkedin: "https://www.linkedin.com/in/tanay-baisware-21ab5b24b/",
+        github: "https://github.com/TANAY779",
+        instagram: "https://www.instagram.com/tanay_baisware/",
+        email: "2022.tanay.baisware@ves.ac.in",
       },
     },
     {
@@ -210,18 +226,6 @@ const data = {
         github: "",
         instagram: "https://www.instagram.com/reetsharma.__/",
         email: "2022.reet.sharma@ves.ac.in",
-      },
-    },
-    {
-      name: "Veydant Sharma",
-      position: "Secretary",
-      path: Veydant,
-
-      socialLinks: {
-        linkedin: "http://www.linkedin.com/in/veydant-sharma-122339243",
-        github: "https://github.com/veydant",
-        instagram: "https://www.instagram.com//veydant10/",
-        email: "2022.veydant.sharma@ves.ac.in",
       },
     },
   ],

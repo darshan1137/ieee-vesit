@@ -56,7 +56,7 @@ const data = {
     },
     {
       name: "Anoushka Menon",
-      position: "Chief Executive Officer",
+      position: "Chief Executive Officer ",
       path: Anoushka,
       socialLinks: {
         linkedin: "http://www.linkedin.com/in/anoushka--menon",
@@ -68,7 +68,7 @@ const data = {
     
     {
       name: "Kaushik Puli",
-      position: "Sr. PR Head",
+      position: "Sr.PR Head",
       path: Kaushik,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/kaushik-puli-451943260",
@@ -80,7 +80,7 @@ const data = {
     
     {
       name: "Aditri Vishwas",
-      position: "Women In Engineering",
+      position: "Women In Engineering ",
       path: Aditri,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/aditri-vishwas-382780280",
@@ -92,7 +92,7 @@ const data = {
 
     {
       name: "Sneha Sumbe",
-      position: "Sr. Web Editior ",
+      position: "Sr.Web Editior ",
       path: Sneha,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/sneha-sumbe-642b45260",
@@ -117,7 +117,7 @@ const data = {
    
     {
       name: "Kirti Eppanapelli",
-      position: "Sr. Editor",
+      position: "Sr.Editor",
       path: Kirti,
       socialLinks: {
         linkedin: "",
@@ -130,7 +130,7 @@ const data = {
     
     {
       name: "Rishika Chaubal",
-      position: "Sr. Graphics Head",
+      position: "Sr.Graphics Head",
       path: Rishika,
       socialLinks: {
         linkedin: "",
@@ -141,7 +141,7 @@ const data = {
     },
     {
       name: "Ashish Nair",
-      position: "Sr. Technical Head",
+      position: "Sr.Technical Head",
       path: Ashish,
       socialLinks: {
         linkedin: "",
@@ -152,7 +152,7 @@ const data = {
     },
     {
       name: "Nihit Mistry",
-      position: "Sr. Technical Head",
+      position: "Sr.Technical Head",
       path: Nihit,
       socialLinks: {
         linkedin: "",
