@@ -10,7 +10,7 @@ import Aditya from "../../assets/council_images/SC/jpeg-optimizer_Aditya_SrWeb.j
 import Gaonkar from "../../assets/council_images/SC/jpeg-optimizer_Atharv_Gaonkar .jpg";
 
 //TEs
-import Aditi_dubey from "../../assets/council_images/SEs/Aditi_dubey.jpg";
+import Aditi_Dubey from "../../assets/council_images/SEs/Aditi_Dubey.jpg";
 import Akshit from "../../assets/council_images/SEs/Akshit.jpg";
 import Arnav from "../../assets/council_images/SEs/Arnav.jpg";
 import Ayush from "../../assets/council_images/SEs/Ayush.jpg";
@@ -42,7 +42,7 @@ const data = {
     {
       name: "Aditi Dubey",
       position: "SE Coordinator",
-      path: Aditi_dubey,
+      path: Aditi_Dubey,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/darshankhapekar/",
         instagram: "https://www.instagram.com/darshan.1137/",
