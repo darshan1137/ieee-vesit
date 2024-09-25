@@ -53,7 +53,7 @@ const data = {
     },
     {
       name: "Ishan Joshi",
-      position: "Managing Executive Officer ",
+      position: "MEO",
       path: Ishan,
 
       socialLinks: {
@@ -134,7 +134,7 @@ const data = {
       },
     },
     {
-      name: "Rakshit Kumar Sharma",
+      name: "Rakshit Sharma",
       position: "Jr.Web Editor",
       path: Rakshit,
 

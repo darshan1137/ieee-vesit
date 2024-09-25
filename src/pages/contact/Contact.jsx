@@ -14,6 +14,8 @@ import aditi from "../../assets/council_images/SC/jpeg-optimizer_Aditi_CEO.jpg";
 import sheryl from "../../assets/council_images/SC/jpeg-optimizer_ChairPerson_Sheryl.jpg";
 import anoushka from "../../assets/council_images/JC/Anoushka_Menon_secretary.jpg";
 import gaurang from "../../assets/council_images/JC/GAURANG RANE.jpeg";
+import veydant from "../../assets/council_images/SEs/Veydant.jpg";
+import ishan from '../../assets/council_images/SEs/Ishan.jpg'
 
 function Contact() {
   const [name, setName] = useState("");
@@ -110,39 +112,19 @@ function Contact() {
           <div className="main center" data-aos="zoom-in-up">
             <div className="box center">
               <img
-                src={sheryl}
+                src={gaurang}
                 alt=""
               />
               <div>
-                <div className="user_name">Sheryl Bellary</div>
+                <div className="user_name">Gaurang Rane</div>
                 <p className="skill">Chairperson</p>
-                <p style={{ marginTop: 10 }}>9869679027</p>
+                <p style={{ marginTop: 10 }}>9867615388</p>
                 <a
-                  href="mailto:2020.sheryl.bellary@ves.ac.in"
+                  href="mailto:2021.gaurang.rane@ves.ac.in"
                   class="fa-solid fa-envelope"
                   style={{ marginTop: 10 }}
                 >
-                  2020.sheryl.bellary@ves.ac.in
-                </a>
-                &nbsp;
-                <br />
-              </div>
-            </div>
-            <div className="box center">
-              <img
-                src={aditi}
-                alt=""
-              />
-              <div>
-                <div className="user_name">Aditi Bombe</div>
-                <p className="skill">CEO</p>
-                <p style={{ marginTop: 10 }}>9987691789 </p>
-                <a
-                  href="mailto:2020.aditi.bombe@ves.ac.in"
-                  class="fa-solid fa-envelope"
-                  style={{ marginTop: 10 }}
-                >
-                  2020.aditi.bombe@ves.ac.in
+                  2021.gaurang.rane@ves.ac.in
                 </a>
                 &nbsp;
                 <br />
@@ -155,7 +137,7 @@ function Contact() {
               />
               <div>
                 <div className="user_name">Anoushka Menon</div>
-                <p className="skill">Secretary</p>
+                <p className="skill">CEO</p>
                 <p style={{ marginTop: 10 }}>7506570413 </p>
                 <a
                   href="mailto:2021.anoushka.menon@ves.ac.in"
@@ -170,19 +152,39 @@ function Contact() {
             </div>
             <div className="box center">
               <img
-                src={gaurang}
+                src={veydant}
                 alt=""
               />
               <div>
-                <div className="user_name">Gaurang Rane</div>
-                <p className="skill">MEO</p>
-                <p style={{ marginTop: 10 }}>9867615388 </p>
+                <div className="user_name">Veydant Sharma</div>
+                <p className="skill">Secretary</p>
+                <p style={{ marginTop: 10 }}>9930731383</p>
                 <a
-                  href="mailto:2021.gaurang.rane@ves.ac.in"
+                  href="mailto:2022.veydant.sharma@ves.ac.in"
                   class="fa-solid fa-envelope"
                   style={{ marginTop: 10 }}
                 >
-                  2021.gaurang.rane@ves.ac.in
+                  2022.veydant.sharma@ves.ac.in
+                </a>
+                &nbsp;
+                <br />
+              </div>
+            </div>
+            <div className="box center">
+              <img
+                src={ishan}
+                alt=""
+              />
+              <div>
+                <div className="user_name">Ishan Joshi</div>
+                <p className="skill">MEO</p>
+                <p style={{ marginTop: 10 }}>9619358205 </p>
+                <a
+                  href="mailto:2022.ishan.joshi@ves.ac.in"
+                  class="fa-solid fa-envelope"
+                  style={{ marginTop: 10 }}
+                >
+                  2022.ishan.joshi@ves.ac.in
                 </a>
                 &nbsp;
                 <br />
