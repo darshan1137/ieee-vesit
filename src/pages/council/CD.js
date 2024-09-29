@@ -21,9 +21,8 @@ import Darshan from "../../assets/council_images/SEs/darshan.jpg";
 import Pranav from "../../assets/council_images/SEs/Pranav.jpg";
 import Ashutosh from "../../assets/council_images/SC/jpeg-optimizer_Ashutosh_Mishra_SrTAB.jpg";
 import Shravani from "../../assets/council_images/SEs/jpeg-optimizer_Shravani Rasam D10A.jpg";
-import Advik from "../../assets/council_images/SEs/Advik.jpg";
+import Advik from "../../assets/council_images/SEs/advik.jpg";
 import Anshi from "../../assets/council_images/SEs/Anshi.jpg";
-
 
 const data = {
   faculty: [
@@ -65,7 +64,7 @@ const data = {
         email: "2021.anoushka.menon@ves.ac.in",
       },
     },
-    
+
     {
       name: "Kaushik Puli",
       position: "Sr.PR Head",
@@ -77,7 +76,7 @@ const data = {
         email: "2021.kaushik.puli@ves.ac.in",
       },
     },
-    
+
     {
       name: "Aditri Vishwas",
       position: "Women In Engineering ",
@@ -101,7 +100,7 @@ const data = {
         email: "2021.sneha.sumbe@ves.ac.in",
       },
     },
-    
+
     {
       name: "Prasad Gourshettiwar ",
       position: "Sr.Treasurer",
@@ -114,7 +113,6 @@ const data = {
       },
     },
 
-   
     {
       name: "Kirti Eppanapelli",
       position: "Sr.Editor",
@@ -126,8 +124,7 @@ const data = {
         email: "d2021.kirti.eppanapelli@ves.ac.in",
       },
     },
-    
-    
+
     {
       name: "Rishika Chaubal",
       position: "Sr.Graphics Head",
@@ -161,12 +158,11 @@ const data = {
         email: "2021.nihit.mistry@ves.ac.in",
       },
     },
-    
   ],
-  /*devs: [
+  devs: [
     {
       name: "Darshan Khapekar",
-      position: "SE Coordinator",
+      position: "CMPN 2026",
       path: Darshan,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/darshankhapekar/",
@@ -177,7 +173,7 @@ const data = {
     },
     {
       name: "Pranav Pol",
-      position: "SE Coordinator",
+      position: "INFT 2026",
       path: Pranav,
 
       socialLinks: {
@@ -189,7 +185,7 @@ const data = {
     },
     {
       name: "Ashutosh Mishra",
-      position: "Sr. TAB",
+      position: "CMPN 2024",
       path: Ashutosh,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/ashutoshm1808/",
@@ -200,7 +196,7 @@ const data = {
     },
     {
       name: "Shravani Rasam",
-      position: "SE coordinator",
+      position: "INFT 2026",
       path: Shravani,
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/shravanirasam02/",
@@ -211,7 +207,7 @@ const data = {
     },
     {
       name: "Advik Hegde",
-      position: "SE Coordinator",
+      position: "INFT 2026",
       path: Advik,
 
       socialLinks: {
@@ -224,7 +220,7 @@ const data = {
     },
     {
       name: "Anshi Tiwari",
-      position: "SE Coordinator",
+      position: "INFT 2026",
       path: Anshi,
 
       socialLinks: {
@@ -233,7 +229,7 @@ const data = {
         email: "2022.anshi.tiwari@ves.ac.in",
       },
     },
-  ],*/
+  ],
 };
 
 export default data;
