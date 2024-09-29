@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Council.css";
-import juniorCouncilData from "./CD";
+import juniorCouncilData from "./councilData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
@@ -29,7 +29,7 @@ const JuniorCouncil = () => {
       <h1 className="ieee_title">Junior Council</h1>
 
       <div className="main center" data-aos="zoom-in-up">
-        {juniorCouncilData.Te.map((data, index) => (
+        {juniorCouncilData.te.map((data, index) => (
           <div className="box center" key={index}>
             <div className="img-container">
               {data.path && (

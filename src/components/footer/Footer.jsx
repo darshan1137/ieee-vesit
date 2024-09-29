@@ -47,7 +47,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faPhone} />
           <p>
             <span>
-              <a href="tel:+919869679027">+91 9869679027</a> - Sheryl Bellary
+              <a href="tel:+919867615388">+91 9867615388</a> - Gaurang Rane
               (Chairperson)
             </span>
           </p>

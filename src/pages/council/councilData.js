@@ -1,4 +1,4 @@
-//BEs
+// Ex BEs
 import Sheryl from "../../assets/council_images/SC/jpeg-optimizer_ChairPerson_Sheryl.jpg";
 import Aditi from "../../assets/council_images/SC/jpeg-optimizer_Aditi_CEO.jpg";
 import Dhanshree from "../../assets/council_images/SC/jpeg-optimizer_SrEditor_Dhanshree_Pandey.jpg";
@@ -9,17 +9,18 @@ import Parth from "../../assets/council_images/SC/jpeg-optimizer_Parth_Sr.Editor
 import Aditya from "../../assets/council_images/SC/jpeg-optimizer_Aditya_SrWeb.jpeg";
 import Gaonkar from "../../assets/council_images/SC/jpeg-optimizer_Atharv_Gaonkar .jpg";
 
-//SEs
-import Darshan from "../../assets/council_images/SEs/darshan.jpg";
-import Shravani from "../../assets/council_images/SEs/jpeg-optimizer_Shravani Rasam D10A.jpg";
-import Pranav from "../../assets/council_images/SEs/PranavPol.jpg";
-import Advik from "../../assets/council_images/SEs/Advik.jpg";
+//TEs
+import Aditi_Dubey from "../../assets/council_images/SEs/Aditi_Dubey.jpeg";
+import Akshit from "../../assets/council_images/SEs/Akshit.jpeg";
+import Arnav from "../../assets/council_images/SEs/Arnav.jpeg";
+import Ayush from "../../assets/council_images/SEs/Ayush.jpeg";
 import Anshi from "../../assets/council_images/SEs/Anshi.jpg";
-import Shreyash from "../../assets/council_images/SEs/Shreyash.jpg";
+import Piyush from "../../assets/council_images/SEs/Piyush.jpeg";
 import Shantanu from "../../assets/council_images/SEs/Shantanu.jpg";
 
+
 import Kshitij from "../../assets/council_images/SEs/Kshitij.jpg";
-import Akshat from "../../assets/council_images/SEs/Akshat.jpg";
+import Pratham from "../../assets/council_images/SEs/Pratham_Matkar.jpeg";
 
 import Purvi from "../../assets/council_images/SEs/Purvi.jpg";
 import Sandali from "../../assets/council_images/SEs/Sandali.jpg";
@@ -31,163 +32,28 @@ import Kale from "../../assets/council_images/SEs/Kale.jpg";
 import Maiths from "../../assets/council_images/SEs/Maithili.jpg";
 import Anjali from "../../assets/council_images/SEs/Anjali.jpg";
 import Reet from "../../assets/council_images/SEs/Reet.jpg";
-import Anushka from "../../assets/council_images/SEs/Anushka.jpg";
+import Rakshit from "../../assets/council_images/SEs/Rakshit.jpeg";
 import Avantika from "../../assets/council_images/SEs/Avantika.jpg";
 import Veydant from "../../assets/council_images/SEs/Veydant.jpg";
 
+
 const data = {
-  se: [
+  te: [
     {
-      name: "Darshan Khapekar",
-      position: "SE Coordinator",
-      path: Darshan,
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/darshankhapekar/",
-        instagram: "https://www.instagram.com/darshan.1137/",
-        github: "https://github.com/darshan1137",
-        email: "d2022.darshan.khapekar@ves.ac.in",
-      },
-    },
-    {
-      name: "Pranav Pol",
-      position: "SE Coordinator",
-      path: Pranav,
+      name: "Veydant Sharma",
+      position: "Secretary",
+      path: Veydant,
 
       socialLinks: {
-        linkedin: "https://www.linkedin.com/in/pranavpol/",
-        github: "https://github.com/PranavPol-01",
-        instagram: "https://www.instagram.com/_pranav_pol_/",
-        email: "2022.pranav.pol@ves.ac.in",
-      },
-    },
-    {
-      name: "Shravani Rasam",
-      position: "SE coordinator",
-      path: Shravani,
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/shravanirasam02/",
-        github: "https://github.com/ShravaniR2412/ShravaniR2412",
-        email: "2022.shravani.rasam@ves.ac.in",
-        instagram: "https://www.instagram.com/shravaniiii_ra02/",
-      },
-    },
-    {
-      name: "Advik Hegde",
-      position: "SE Coordinator",
-      path: Advik,
-
-      socialLinks: {
-        linkedin:
-          "https://www.linkedin.com/in/advik-hegde-493018295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        github: "https://github.com/AdvikHegde",
-        instagram: "https://www.instagram.com/advik_hegde_/",
-        email: "2022.advik.hegde@ves.ac.in",
-      },
-    },
-    {
-      name: "Anshi Tiwari",
-      position: "SE Coordinator",
-      path: Anshi,
-
-      socialLinks: {
-        github: "https://github.com/anshi1108",
-        instagram: "https://www.instagram.com/blevjun/",
-        email: "2022.anshi.tiwari@ves.ac.in",
-      },
-    },
-    {
-      name: "Shreyash Das",
-      position: "SE Coordinator",
-      path: Shreyash,
-
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/shreyash-das-b1260225a/",
-        instagram: "https://www.instagram.com/shreyashdas74/",
-        email: "2022.shreyash.das@ves.ac.in",
-      },
-    },
-    {
-      name: "Shantanu Bhosale",
-      position: "SE Coordinator",
-      path: Shantanu,
-
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/shantanu-bhosale-b37839220/",
-        github: "https://github.com/JANGJONWOO",
-        instagram: "https://www.instagram.com/srbhosale26/",
-        email: "2022.shantanu.bhosale@ves.ac.in",
-      },
-    },
-    {
-      name: "Kshitij Patki",
-      position: "SE Coordinator",
-      path: Kshitij,
-
-      socialLinks: {
-        instagram: "https://www.instagram.com/kshitij_1612/",
-        email: "2022.kshitij.patki@ves.ac.in",
-      },
-    },
-    {
-      name: "Akshat Mahajan",
-      position: "SE Coordinator",
-      path: Akshat,
-
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/akshat-mahajan/",
-        github: "https://github.com/ActiveAkshat",
-        instagram: "https://www.instagram.com/akshat___mahajan/",
-        email: "2022.akshat.mahajan@ves.ac.in",
-      },
-    },
-    {
-      name: "Purvi Prasad",
-      position: "SE Coordinator",
-      path: Purvi,
-
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/purvi-prasad-753a06264/",
-        github: "https://github.com/codpurvi",
-        instagram: "https://www.instagram.com/borealiski._/",
-        email: "2022.purvi.prasad@ves.ac.in",
-      },
-    },
-    {
-      name: "Sandali Bhat",
-      position: "SE Coordinator",
-      path: Sandali,
-
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/sandali-bhat-1b3a27284/",
-        github: "https://github.com/sandalibhat",
-        instagram: "https://www.instagram.com/sandalibhat_/",
-        email: "2022.sandali.bhat@ves.ac.in",
-      },
-    },
-    {
-      name: "Khayati Joshi",
-      position: "SE Coordinator",
-      path: Khyati,
-
-      socialLinks: {
-        instagram: "https://www.instagram.com/khyatss/",
-        email: "2022.khayati.joshi@ves.ac.in",
-      },
-    },
-    {
-      name: "Vaishnavi Yadav ",
-      position: "SE Coordinator",
-      path: Vaishnavi,
-
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/vaishnavi-yadav-740246263/",
-        instagram: "https://www.instagram.com/yadavaishnaviii/",
-        email: "2022.vaishnavi.yadav@ves.ac.in ",
+        linkedin: "http://www.linkedin.com/in/veydant-sharma-122339243",
+        github: "https://github.com/veydant",
+        instagram: "https://www.instagram.com//veydant10/",
+        email: "2022.veydant.sharma@ves.ac.in",
       },
     },
     {
       name: "Ishan Joshi",
-      position: "SE Coordinator",
+      position: "MEO",
       path: Ishan,
 
       socialLinks: {
@@ -198,44 +64,44 @@ const data = {
       },
     },
     {
-      name: "Tanay Baisware",
-      position: "SE Coordinator",
-      path: Tanay,
+      name: "Anshi Tiwari",
+      position: "Jr.PR Head",
+      path: Anshi,
 
       socialLinks: {
-        linkedin: "https://www.linkedin.com/in/tanay-baisware-21ab5b24b/",
-        github: "https://github.com/TANAY779",
-        instagram: "https://www.instagram.com/tanay_baisware/",
-        email: "2022.tanay.baisware@ves.ac.in",
+        github: "https://github.com/anshi1108",
+        instagram: "https://www.instagram.com/blevjun/",
+        email: "2022.anshi.tiwari@ves.ac.in",
+      },
+    },
+    
+    
+    
+    {
+      name: "Ayush Patil",
+      position: "Jr.PR Head",
+      path: Ayush,
+
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/avantika31963293/",
+        github: "https://github.com/avantika421",
+        instagram: "https://www.instagram.com/xaqer10/",
+        email: "2022.ayush.patil@ves.ac.in",
       },
     },
     {
-      name: "Shravani Kale",
-      position: "SE Coordinator",
-      path: Kale,
+      name: "Kshitij Patki",
+      position: "Jr.Treasurer",
+      path: Kshitij,
 
       socialLinks: {
-        linkedin: "",
-        github: "https://github.com/Algoscribe",
-        instagram: "https://www.instagram.com/bienchen_027/",
-        email: "2022.shravani.kale@ves.ac.in",
-      },
-    },
-    {
-      name: "Maithili Latey",
-      position: "SE Coordinator",
-      path: Maiths,
-
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/maithili-latey-a8b645249/",
-        github: "",
-        instagram: "https://www.instagram.com/maithilliii/",
-        email: "2022.maithili.latey@ves.ac.in",
+        instagram: "https://www.instagram.com/kshitij_1612/",
+        email: "2022.kshitij.patki@ves.ac.in",
       },
     },
     {
       name: "Anjali Thakrani",
-      position: "SE Coordinator",
+      position: "Jr. Web Editor",
       path: Anjali,
 
       socialLinks: {
@@ -246,8 +112,113 @@ const data = {
       },
     },
     {
+      name: "Pratham Matkar",
+      position: "Jr.Web Editor",
+      path: Pratham,
+
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/shreyash-das-b1260225a/",
+        instagram: "https://www.instagram.com/pratham_2506_/",
+        email: "d2022.pratham.matkar@ves.ac.in",
+      },
+    },
+    {
+      name: "Aditi Dubey",
+      position: "Jr.Web Editor",
+      path: Aditi_Dubey,
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/darshankhapekar/",
+        instagram: "https://www.instagram.com/Aditi_Dubey/",
+        github: "https://github.com/darshan1137",
+        email: "2022.aditi.dubey@ves.ac.in",
+      },
+    },
+    {
+      name: "Rakshit Sharma",
+      position: "Jr.Web Editor",
+      path: Rakshit,
+
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/pranavpol/",
+        github: "https://github.com/PranavPol-01",
+        instagram: "https://www.instagram.com/rakshit4275/",
+        email: "2022.rakshit.sharma@ves.ac.in",
+      },
+    },
+    {
+      name: "Shantanu Bhosale",
+      position: "Jr.Technical Head",
+      path: Shantanu,
+
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/shantanu-bhosale-b37839220/",
+        github: "https://github.com/JANGJONWOO",
+        instagram: "https://www.instagram.com/srbhosale26/",
+        email: "2022.shantanu.bhosale@ves.ac.in",
+      },
+    },
+    {
+      name: "Arnav Sawant",
+      position: "Jr.Technical Head",
+      path: Arnav,
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/shravanirasam02/",
+        github: "https://github.com/ShravaniR2412/ShravaniR2412",
+        email: "2022.arnav.savant@ves.ac.in",
+        instagram: "https://www.instagram.com/arnavdrafts/",
+      },
+    },
+    {
+      name: "Piyush Pandey",
+      position: "Jr.Technical Head",
+      path: Piyush,
+
+      socialLinks: {
+        linkedin:
+          "https://www.linkedin.com/in/advik-hegde-493018295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: "https://github.com/AdvikHegde",
+        instagram: "https://www.instagram.com/piyush.pandey_01/",
+        email: "2022.piyush.pandey@ves.ac.in",
+      },
+    },
+    
+    {
+      name: "Akshit Ramrane",
+      position: "Jr.Graphics Head",
+      path: Akshit,
+
+      socialLinks: {
+        instagram: "https://www.instagram.com/ctnt112/",
+        email: "2022.akshit.ramrane@ves.ac.in",
+      },
+    },
+    {
+      name: "Maithili Latey",
+      position: "Jr.Graphics Head",
+      path: Maiths,
+
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/maithili-latey-a8b645249/",
+        github: "",
+        instagram: "https://www.instagram.com/maithilliii/",
+        email: "2022.maithili.latey@ves.ac.in",
+      },
+    },
+    {
+      name: "Tanay Baisware",
+      position: "Jr.Editor",
+      path: Tanay,
+
+      socialLinks: {
+        linkedin: "https://www.linkedin.com/in/tanay-baisware-21ab5b24b/",
+        github: "https://github.com/TANAY779",
+        instagram: "https://www.instagram.com/tanay_baisware/",
+        email: "2022.tanay.baisware@ves.ac.in",
+      },
+    },
+    {
       name: "Reet Sharma",
-      position: "SE Coordinator",
+      position: "Women In Engineering",
       path: Reet,
 
       socialLinks: {
@@ -257,45 +228,10 @@ const data = {
         email: "2022.reet.sharma@ves.ac.in",
       },
     },
-    {
-      name: "Anushka Bhatnagar",
-      position: "SE Coordinator",
-      path: Anushka,
-
-      socialLinks: {
-        linkedin: "",
-        github: "https://github.com/anushhkka",
-        instagram: "https://www.instagram.com/anushka.0704/",
-        email: "2022.anushka.bhatnagar@ves.ac.in",
-      },
-    },
-    {
-      name: "Avantika Sharma",
-      position: "SE Coordinator",
-      path: Avantika,
-
-      socialLinks: {
-        linkedin: "https://www.linkedin.com/in/avantika31963293/",
-        github: "https://github.com/avantika421",
-        instagram: "https://www.instagram.com/avantika_.26/",
-        email: "2022.avantika.sharma@ves.ac.in",
-      },
-    },
-    {
-      name: "Veydant Sharma",
-      position: "SE Coordinator",
-      path: Veydant,
-
-      socialLinks: {
-        linkedin: "http://www.linkedin.com/in/veydant-sharma-122339243",
-        github: "https://github.com/veydant",
-        instagram: "https://www.instagram.com//veydant10/",
-        email: "2022.veydant.sharma@ves.ac.in",
-      },
-    },
   ],
 
-  be: [
+
+  /*Exbe: [
     {
       name: "Sheryl Bellary",
       position: "Chairperson",
@@ -392,7 +328,7 @@ const data = {
         email: "2020.akash.choughule@ves.ac.in",
       },
     },
-  ],
+  ],*/
 };
 
 export default data;
